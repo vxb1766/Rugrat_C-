@@ -28,7 +28,7 @@ namespace edu.uta.cse.proggen.statements
 
 			for (int i = 0; i <= option; i++)
 			{
-				stmt = "System.out.println(\"" + method.AssociatedClass.FileName + " - " + method.Name + "- LineInMethod: " + method.Loc + "\");" + "\n";
+                stmt = "System.out.println(\"" + method.AssociatedClass.FileName + " - " + method.Name + "- LineInMethod: " + method.Loc + "\");" + "\n";
 			}
 
 			method.Loc = method.Loc + option + 1;

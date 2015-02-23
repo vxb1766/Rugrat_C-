@@ -43,7 +43,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
        
         //Veena : milliseconds introduced coz date time helper is causing issue.
         static long milliseconds = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-        private static Int16 randInput = Convert.ToInt16(1000);
+        private static Int16 randInput = Convert.ToInt16(9999);
         private Random rand = new Random(randInput);
 
 		private HashSet<Field> usedFields = new HashSet<Field>();

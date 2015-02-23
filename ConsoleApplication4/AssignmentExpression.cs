@@ -150,8 +150,9 @@ namespace edu.uta.cse.proggen.expressions
 						}
 						builder.Append(lhs + " = (" + lhs.Type + ")" + result + "\n\n");
 						builder.Append("} catch(Exception e) { e.printStackTrace(); }\n\n");
-						builder.Append("System.out.println(" + lhs + ");\n");
+                        builder.Append("System.out.println(" + lhs + ");\n");
 						output += builder.ToString();
+                        
 					}
 				}
 				else
