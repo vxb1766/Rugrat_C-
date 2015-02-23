@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml;
 
 namespace edu.uta.cse.proggen.configurationParser
 {
 
 
 
-	using Document = org.w3c.dom.Document;
-	using Element = org.w3c.dom.Element;
-	using Node = org.w3c.dom.Node;
-	using NodeList = org.w3c.dom.NodeList;
+    //using Document = Document;
+    //using Element = org.w3c.dom.Element;
+    //using Node = org.w3c.dom.Node;
+    //using NodeList = org.w3c.dom.NodeList;
 
 	using Type = edu.uta.cse.proggen.classLevelElements.Type;
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
@@ -22,7 +23,7 @@ namespace edu.uta.cse.proggen.configurationParser
 	/// </summary>
 	public class QueryFileParser
 	{
-		private static Document document = null;
+        private static XmlDocument document = new XmlDocument();
 		public static List<Query> queries = new List<Query>();
 
 		/*
@@ -31,11 +32,13 @@ namespace edu.uta.cse.proggen.configurationParser
 		 */
 		static QueryFileParser()
 		{
-			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			//DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			try
 			{
-				DocumentBuilder builder = factory.newDocumentBuilder();
-				document = builder.parse(new File(ConfigurationXMLParser.getProperty("queryFilename")));
+				//DocumentBuilder builder = factory.newDocumentBuilder();
+                string filename = ConfigurationXMLParser.getProperty("queryFilename");
+                document.Load(filename);
+				//document = builder.parse(new File(ConfigurationXMLParser.getProperty("queryFilename")));
 				parseQueryNodes();
 			}
 			catch (Exception e)
@@ -46,7 +49,7 @@ namespace edu.uta.cse.proggen.configurationParser
 			}
 		}
 
-		private static Node RootNode
+		private static XmlNode RootNode
 		{
 			get
 			{
@@ -56,21 +59,21 @@ namespace edu.uta.cse.proggen.configurationParser
 
 		public static void parseQueryNodes()
 		{
-			Node root = RootNode;
-			NodeList queryNodes = root.ChildNodes;
+			XmlNode root = RootNode;
+			XmlNodeList queryNodes = root.ChildNodes;
 
-			int noOfQueryNodes = queryNodes.Length;
+            int noOfQueryNodes = queryNodes.Count;
 
 			for (int i = 0; i < noOfQueryNodes; i++)
 			{
-				Node node = queryNodes.item(i);
-				if (node is Element)
+                XmlNode node = queryNodes.Item(i);
+				if (node is XmlElement)
 				{
-					Element queryNode = (Element)node;
-					string queryString = queryNode.getAttribute("value");
+                    XmlElement queryNode = (XmlElement)node;
+					string queryString = queryNode.GetAttribute("value");
 
-					NodeList resultNodes = queryNode.ChildNodes;
-					int noOfResultNodes = resultNodes.Length;
+					XmlNodeList resultNodes = queryNode.ChildNodes;
+					int noOfResultNodes = resultNodes.Count;
 					string name = "";
 					int seqNumber = -1;
 					Type.Primitives type;
@@ -79,13 +82,13 @@ namespace edu.uta.cse.proggen.configurationParser
 					HashSet<Type.Primitives> typeSet = new HashSet<Type.Primitives>();
 					for (int j = 0; j < noOfResultNodes; j++)
 					{
-						Node resultNode = resultNodes.item(j);
-						if (resultNode is Element)
+						XmlNode resultNode = resultNodes.Item(j);
+						if (resultNode is XmlElement)
 						{
-							Element resultElement = (Element) resultNode;
-							name = resultElement.getAttribute("Name");
-							seqNumber = Convert.ToInt32(resultElement.getAttribute("SeqNumber"));
-							type = Type.reverseLookup(resultElement.getAttribute("Type"));
+                            XmlElement resultElement = (XmlElement)resultNode;
+							name = resultElement.GetAttribute("Name");
+							seqNumber = Convert.ToInt32(resultElement.GetAttribute("SeqNumber"));
+							type = Type.reverseLookup(resultElement.GetAttribute("Type"));
 
 							typeSet.Add(type);
 							QueryResult queryResult = new QueryResult(name, seqNumber, type);

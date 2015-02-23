@@ -75,7 +75,7 @@ namespace edu.uta.cse.proggen.expressions
 					continue;
 				}
 
-				if (@var.Type.Type == primitive)
+				if (@var.Type.getType() == primitive)
 				{
 					typedVariableList.Add(@var);
 				}

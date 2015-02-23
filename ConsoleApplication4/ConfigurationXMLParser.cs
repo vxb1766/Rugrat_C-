@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml;
 
 namespace edu.uta.cse.proggen.configurationParser
 {
 
 
-
-	using Document = org.w3c.dom.Document;
-	using Node = org.w3c.dom.Node;
-	using NodeList = org.w3c.dom.NodeList;
-	using SAXException = org.xml.sax.SAXException;
+    using XMLException = System.Xml.XmlException;
+    using IOException = System.IO.IOException;
+    //using Document = org.w3c.dom.Document;
+    //using Node = org.w3c.dom.Node;
+    //using NodeList = org.w3c.dom.NodeList;
+    //using SAXException = org.xml.sax.SAXException;
 
 	using Start = edu.uta.cse.proggen.start.Start;
 
@@ -28,18 +30,19 @@ namespace edu.uta.cse.proggen.configurationParser
 	public class ConfigurationXMLParser
 	{
 
-		private static Document document = null;
+		private static XmlDocument document = null;
 		private static Dictionary<string, string> properties = new Dictionary<string, string>();
         private static HashSet<string> typeList = new HashSet<string>();
 
 		//read information from the XML as soon as the class is loaded into the JVM
 		static ConfigurationXMLParser()
 		{
-			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+			//DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 			try
 			{
-				DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-				document = documentBuilder.parse(new File(Start.PathToDir + "config.xml"));
+				//DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+                string filename = (Start.Start.PathToDir + "config.xml");
+				document.Load(filename);
 				try
 				{
 					parseProperties();
@@ -52,20 +55,20 @@ namespace edu.uta.cse.proggen.configurationParser
 					Environment.Exit(1);
 				}
 			}
-			catch (ParserConfigurationException e)
+			catch (XMLException e)
 			{
 				Console.WriteLine("error parsing XML configuration!");
 				Console.WriteLine(e.ToString());
 				Console.Write(e.StackTrace);
 				Environment.Exit(1);
 			}
-			catch (SAXException e)
-			{
-				Console.WriteLine("error parsing XML configuration!");
-				Console.WriteLine(e.ToString());
-				Console.Write(e.StackTrace);
-				Environment.Exit(1);
-			}
+            //catch (SAXException e)
+            //{
+            //    Console.WriteLine("error parsing XML configuration!");
+            //    Console.WriteLine(e.ToString());
+            //    Console.Write(e.StackTrace);
+            //    Environment.Exit(1);
+            //}
 			catch (IOException e)
 			{
 				Console.WriteLine("error processing XML configuration file!");
@@ -75,7 +78,7 @@ namespace edu.uta.cse.proggen.configurationParser
 			}
 		}
 
-		private static Node RootNode
+		private static XmlNode RootNode
 		{
 			get
 			{
@@ -87,40 +90,40 @@ namespace edu.uta.cse.proggen.configurationParser
 //ORIGINAL LINE: public static void parseProperties() throws Exception
 		public static void parseProperties()
 		{
-			Node root = RootNode;
-			NodeList propertyNodes = root.ChildNodes;
+            XmlNode root = RootNode;
+            XmlNodeList propertyNodes = root.ChildNodes;
 
-			int numberOfPropertyNodes = propertyNodes.Length;
+			int numberOfPropertyNodes = propertyNodes.Count;
 
 			for (int i = 0; i < numberOfPropertyNodes; i++)
 			{
-				Node node = propertyNodes.item(i);
-				string name = node.NodeName;
+                XmlNode node = propertyNodes.Item(i);
+                string name = node.Name;
 				if (name.Equals("allowedTypes"))
 				{
 					parseAllowedTypes(node);
 					continue;
 				}
-				string value = node.TextContent;
+                string value = node.Value;
 				properties[name] = value;
 			}
 		}
 
 //JAVA TO C# CONVERTER WARNING: Method 'throws' clauses are not available in .NET:
 //ORIGINAL LINE: private static void parseAllowedTypes(org.w3c.dom.Node node) throws Exception
-		private static void parseAllowedTypes(Node node)
+        private static void parseAllowedTypes(XmlNode node)
 		{
-			if (!node.NodeName.Equals("allowedTypes"))
+			if (!node.Name.Equals("allowedTypes"))
 			{
 				throw new Exception("Invalid node allowedTypes");
 			}
 
-			NodeList typeNodes = node.ChildNodes;
-			int noOfTypes = typeNodes.Length;
+			XmlNodeList typeNodes = node.ChildNodes;
+			int noOfTypes = typeNodes.Count;
 
 			for (int i = 0; i < noOfTypes; i++)
 			{
-				string str = typeNodes.item(i).TextContent.Trim();
+				string str = typeNodes.Item(i).Value.Trim();
 				if (str.Equals(""))
 				{
 					continue;
