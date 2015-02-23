@@ -299,6 +299,7 @@ namespace edu.uta.cse.proggen.start.Start
                 System.IO.File.WriteAllText(path, contents);
 
 				// To let the user know RUGRAT is working...
+                Console.WriteLine("I am from Rugrat c#");
 				Console.WriteLine("Writing to file...." + filename);
 				
 				// Successfully written
