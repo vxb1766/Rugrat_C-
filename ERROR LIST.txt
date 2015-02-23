@@ -1,15 +1,24 @@
-If you find any common error pattern that reoccurs please write here so it is easy for others to solve in their changes:
-
+<h3>If you find any common error pattern that reoccurs please write here so it is easy for others to solve in their changes</h3>
+<hr>
 Error list
 
 Error ----> Solution
+<ol>
+<li>.contains - Change to .Contains</li>
 
-.contains - Change to .Contains
+<li>lhs.Type.Type - change to lhs.type.getType()</li>
 
-lhs.Type.Type - change to lhs.type.getType()
+<li>generator.Fields.size() --> generator.Fields.Count</li>
 
-generator.Fields.size() --> generator.Fields.Count
+<li>generator.Fields.get(rand.Next(generator.Fields.Count)) --> generator.Fields[rand.Next(generator.Fields.Count)]</li>
 
-generator.Fields.get(rand.Next(generator.Fields.Count)) --> generator.Fields[rand.Next(generator.Fields.Count)]
+<li>.add --> .Add</li>
 
-.add --> .Add
+<li>File.separator -> Path.PathSeparator</li>
+
+<li><pre>Writing to a file
+    String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".java";
+    System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
+    string @out = output.ToString(); //output is a string builder
+	  fileWriter.Write(@out);
+    fileWriter.Close();</li>
