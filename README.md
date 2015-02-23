@@ -4,6 +4,12 @@ This tool converts Prof. Csallner's &amp; team's work to c#. The code is written
 <h5><ol><li> Dropbox - https://www.dropbox.com/sh/6vbi2r04yvod41z/AACHVm4ASxVli1_hvMtuMrt8a?dl=0</li>
 <li>Github Solution Files - https://github.com/vxb1766/Rugrat_C-/tree/master/SlutionFiles</li>
 </h5>
+<hr>
+<h4>Current Issue's<hr>
+<h6><ol><li>Line 99 in start which points to class generator. Some issue with constructor leading to stack overflow.
+-Veena : too late to make changes now. will do it tomorow.</li></ol></h6>
+</h4><hr>
+
 
 Files With No Issues as of Now :<ol><li> start</li><li>Field</li><li>ProgGenUtil</li>Type<li>entire Statement package</li></ol>
 <hr><pre>
