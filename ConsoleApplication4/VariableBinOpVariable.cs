@@ -20,7 +20,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			Random rand = new Random();
 
-			int nested = rand.Next(100);
+			int nested = rand.Next(100000);
 			if (nested < method.AssociatedClass.Percent)
 			{
 				leftOprnd = new VariableBinOpVariable(method, primitive);

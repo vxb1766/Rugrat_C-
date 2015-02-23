@@ -37,183 +37,185 @@ namespace edu.uta.cse.proggen.start.Start
 			}
 		}
 
-		public static void Main(string[] args)
-		{
-			/* For ant script: specify 'config.xml' file and output directory */		
-            
-			if (args.Length == 1)
-			{
-				pathToDir = args[0] + System.IO.Path.PathSeparator;
-			}
+        public static void Main(string[] args)
+        {
+            /* For ant script: specify 'config.xml' file and output directory */
+
+            if (args.Length == 1)
+            {
+                pathToDir = args[0] + System.IO.Path.PathSeparator;
+            }
 
 
-			/* List of generated class objects: ClassGenerators */
+            /* List of generated class objects: ClassGenerators */
             List<ClassGenerator> list = new List<ClassGenerator>();
-		//	List<InterfaceGenerator> interfaceList = new List<InterfaceGenerator>();
-			int numberOfClasses = 0;
-			int maxInheritanceDepth = 0;
-			int noOfInheritanceChains = 0;
-			int noOfInterfaces = 0;
-			int maxInterfacesToImplement = 0;
+            //	List<InterfaceGenerator> interfaceList = new List<InterfaceGenerator>();
+            int numberOfClasses = 0;
+            int maxInheritanceDepth = 0;
+            int noOfInheritanceChains = 0;
+            int noOfInterfaces = 0;
+            int maxInterfacesToImplement = 0;
 
-			/* Set of generated classes, it's updated in ClassGenerator.generate() */
-			HashSet<string> generatedClasses = new HashSet<string>();
-			HashSet<string> preGeneratedClasses = new HashSet<string>();
+            /* Set of generated classes, it's updated in ClassGenerator.generate() */
+            HashSet<string> generatedClasses = new HashSet<string>();
+            HashSet<string> preGeneratedClasses = new HashSet<string>();
 
-				try
-				{
-					string className = ConfigurationXMLParser.getProperty("classNamePrefix");
-					int totalLoc = ConfigurationXMLParser.getPropertyAsInt("totalLOC");
+            try
+            {
+                string className = ConfigurationXMLParser.getProperty("classNamePrefix");
+                int totalLoc = ConfigurationXMLParser.getPropertyAsInt("totalLOC");
 
-					numberOfClasses = ConfigurationXMLParser.getPropertyAsInt("noOfClasses");
-					maxInheritanceDepth = ConfigurationXMLParser.getPropertyAsInt("maxInheritanceDepth"); // e.g. 3
-					noOfInheritanceChains = ConfigurationXMLParser.getPropertyAsInt("noOfInheritanceChains"); // 2 => "A-B-C" ; "E-F-G"
-					noOfInterfaces = ConfigurationXMLParser.getPropertyAsInt("noOfInterfaces");
-					maxInterfacesToImplement = ConfigurationXMLParser.getPropertyAsInt("maxInterfacesToImplement");
+                numberOfClasses = ConfigurationXMLParser.getPropertyAsInt("noOfClasses");
+                maxInheritanceDepth = ConfigurationXMLParser.getPropertyAsInt("maxInheritanceDepth"); // e.g. 3
+                noOfInheritanceChains = ConfigurationXMLParser.getPropertyAsInt("noOfInheritanceChains"); // 2 => "A-B-C" ; "E-F-G"
+                noOfInterfaces = ConfigurationXMLParser.getPropertyAsInt("noOfInterfaces");
+                maxInterfacesToImplement = ConfigurationXMLParser.getPropertyAsInt("maxInterfacesToImplement");
 
-					if (numberOfClasses < (maxInheritanceDepth * noOfInheritanceChains))
-					{
-						Console.WriteLine("Insufficent number of classes. Should be atleast: " + maxInheritanceDepth * noOfInheritanceChains);
-						Environment.Exit(1);
-					}
+                if (numberOfClasses < (maxInheritanceDepth * noOfInheritanceChains))
+                {
+                    Console.WriteLine("Insufficent number of classes. Should be atleast: " + maxInheritanceDepth * noOfInheritanceChains);
+                    Environment.Exit(1);
+                }
 
-                    HashSet<string> classList = new HashSet<string>();
+                HashSet<string> classList = new HashSet<string>();
 
-					for (int i = 0; i < numberOfClasses; i++)
-					{
+                for (int i = 0; i < numberOfClasses; i++)
+                {
 
-                        classList.Add(className + i);
-					}
-					//E.g., {[2,5,6], [0,1,4]}
-					List<List<int>> inheritanceHierarchies = new List<List<int>>();
+                    classList.Add(className + i);
+                }
+                //E.g., {[2,5,6], [0,1,4]}
+                List<List<int>> inheritanceHierarchies = new List<List<int>>();
 
-                    //inheritanceHierarchies = ProgGenUtil.getInheritanceList(noOfInheritanceChains, maxInheritanceDepth, numberOfClasses);
+                //inheritanceHierarchies = ProgGenUtil.getInheritanceList(noOfInheritanceChains, maxInheritanceDepth, numberOfClasses);
 
-					for (int i = 0; i < numberOfClasses; i++)
-					{
-						//Ishtiaque: All classes have equal number of variables, methods, etc. Should we change it?	
-						// classes are like A1, A2, etc where A=<UserDefinedName> 
-						//Bala: All such cases are handled in the ClassGenerator. It generates arbitrary number of
-						// fields, methods. Only constraint is it should override all the methods of the interfaces
-						// it implements.
-                        list.Add(new ClassGenerator(className + i, totalLoc / numberOfClasses, null)
-					   );
-					}
-                    string path = @"C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test";
-                   //Directory directory = Directory.CreateDirectory(path);
-                    DirectoryInfo directory =   Directory.CreateDirectory(path);
-                    //System.IO.FileStream fs = System.IO.File.Create(pathString);
-                   
+                for (int i = 0; i < numberOfClasses; i++)
+                {
+                    //Ishtiaque: All classes have equal number of variables, methods, etc. Should we change it?	
+                    // classes are like A1, A2, etc where A=<UserDefinedName> 
+                    //Bala: All such cases are handled in the ClassGenerator. It generates arbitrary number of
+                    // fields, methods. Only constraint is it should override all the methods of the interfaces
+                    // it implements.
 
-					if (!directory.Exists)
-					{
-						//Console.WriteLine(directory.mkdirs());
-                        directory = System.IO.Directory.CreateDirectory(path);
-                        Console.WriteLine(directory);
-					}
-/*
-					for (int i = 0; i < noOfInterfaces; i++)
-					{
-						InterfaceGenerator generator = new InterfaceGenerator(className + "Interface" + i, list);
-						interfaceList.Add(generator);
-						writeToFile(generator);
-					}
+                    ClassGenerator test = new ClassGenerator(className + i, totalLoc / numberOfClasses, null);
+                    list.Add(test);
 
-					//establishClassRelationships(inheritanceHierarchies, list);
-
-					//establishClassInterfaceRelationships(interfaceList, list);
- */ 
-				}
-				catch (System.FormatException e)
-				{
-					Console.WriteLine("Please enter integer values for arguments that expect integers!!!");
-					Console.WriteLine(e.ToString());
-					Console.Write(e.StackTrace);
-					Environment.Exit(1);
-				}
-
-				//do pre-generation for classes
-				//pre-generation determines the class members variables and method signatures
-				foreach (ClassGenerator generator in list)
-				{
-					generator.preGenerateForMethodSignature(list, preGeneratedClasses);
-				}
-
-				foreach (ClassGenerator generator in list)
-				{
-					//Ishtiaque: How can 'generatedClasses' contain any of the ClassGenerator objects from the list? 
-					//Bala: classes are generated semi-recursively. The classes will invoke class generation on the
-					//super class. The current class will be generated only after all its ancestor classes are generated.
-					//We do not want to regenerate the ancestor classses and make stale the information used by its sub-classes
-					//based on the earlier version.
-					if (!generatedClasses.Contains(generator.FileName))
-					{
-						//call generate to construct the class contents
-						generator.generate(list, generatedClasses, preGeneratedClasses);
-					}
-					writeToFile(generator);
-				}
-
-				//generate DBUtil only if useQueries is TRUE
-                //if (ProgGenUtil.useQueries)
-                //{
-                //    DBUtilGenerator dbUtilGenerator = new DBUtilGenerator();
-                //    writeToFile(dbUtilGenerator);
-                //}
-
-				/* writing SingleEntry class */
-
-                //SingleEntryGenerator singleEntryGen = new SingleEntryGenerator(list);
-                //String className = ConfigurationXMLParser.getProperty("classNamePrefix")+"Start";
-                //write(className, singleEntryGen.toString());
-
-				TreeOfSingleEntryGenerator treeSingleEntryGen = new TreeOfSingleEntryGenerator(list, pathToDir);
-				treeSingleEntryGen.generateTreeOfSingleEntryClass();
-
-				//write the reachability matrix
-
-				if (ConfigurationXMLParser.getProperty("doReachabilityMatrix").Equals("no"))
-				{
-					return;
-				}
+                }
+                string path = @"C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test";
+                //Directory directory = Directory.CreateDirectory(path);
+                DirectoryInfo directory = Directory.CreateDirectory(path);
+                //System.IO.FileStream fs = System.IO.File.Create(pathString);
 
 
-				List<Method> methodListAll = new List<Method>();
-				foreach (ClassGenerator generator in list)
-				{
-					methodListAll.AddRange(generator.MethodList);
-				}
+                if (!directory.Exists)
+                {
+                    //Console.WriteLine(directory.mkdirs());
+                    directory = System.IO.Directory.CreateDirectory(path);
+                    Console.WriteLine(directory);
+                }
+                /*
+                                    for (int i = 0; i < noOfInterfaces; i++)
+                                    {
+                                        InterfaceGenerator generator = new InterfaceGenerator(className + "Interface" + i, list);
+                                        interfaceList.Add(generator);
+                                        writeToFile(generator);
+                                    }
 
-				StringBuilder builder = new StringBuilder();
-				builder.Append("Name, ");
+                                    //establishClassRelationships(inheritanceHierarchies, list);
 
-				foreach (Method method in methodListAll)
-				{
-					builder.Append(method.AssociatedClass.FileName + "." + method.Name);
-					builder.Append(", ");
-				}
-				builder.Append("\n");
+                                    //establishClassInterfaceRelationships(interfaceList, list);
+                 */
+            }
+            catch (System.FormatException e)
+            {
+                Console.WriteLine("Please enter integer values for arguments that expect integers!!!");
+                Console.WriteLine(e.ToString());
+                Console.Write(e.StackTrace);
+                Environment.Exit(1);
+            }
 
-				foreach (Method method in methodListAll)
-				{
-					builder.Append(method.AssociatedClass.FileName + "." + method.Name);
-					builder.Append(", ");
-					foreach (Method calledMethod in methodListAll)
-					{
-                        
-						if (method.CalledMethodsWithClassName.Contains(calledMethod.AssociatedClass.FileName + "." + calledMethod.Name))
-						{
-							builder.Append("1, ");
-						}
-						else
-						{
-							builder.Append("0, ");
-						}
-					}
-					builder.Append("\n");
-				}
-				writeReachabilityMatrix(builder.ToString());
-		}
+            //do pre-generation for classes
+            //pre-generation determines the class members variables and method signatures
+            foreach (ClassGenerator generator in list)
+            {
+                generator.preGenerateForMethodSignature(list, preGeneratedClasses);
+            }
+
+            foreach (ClassGenerator generator in list)
+            {
+                //Ishtiaque: How can 'generatedClasses' contain any of the ClassGenerator objects from the list? 
+                //Bala: classes are generated semi-recursively. The classes will invoke class generation on the
+                //super class. The current class will be generated only after all its ancestor classes are generated.
+                //We do not want to regenerate the ancestor classses and make stale the information used by its sub-classes
+                //based on the earlier version.
+                if (!generatedClasses.Contains(generator.FileName))
+                {
+                    //call generate to construct the class contents
+                    generator.generate(list, generatedClasses, preGeneratedClasses);
+                }
+                writeToFile(generator);
+            }
+
+            //generate DBUtil only if useQueries is TRUE
+            //if (ProgGenUtil.useQueries)
+            //{
+            //    DBUtilGenerator dbUtilGenerator = new DBUtilGenerator();
+            //    writeToFile(dbUtilGenerator);
+            //}
+
+            /* writing SingleEntry class */
+
+            //SingleEntryGenerator singleEntryGen = new SingleEntryGenerator(list);
+            //String className = ConfigurationXMLParser.getProperty("classNamePrefix")+"Start";
+            //write(className, singleEntryGen.toString());
+
+            TreeOfSingleEntryGenerator treeSingleEntryGen = new TreeOfSingleEntryGenerator(list, pathToDir);
+            treeSingleEntryGen.generateTreeOfSingleEntryClass();
+
+            //write the reachability matrix
+
+            if (ConfigurationXMLParser.getProperty("doReachabilityMatrix").Equals("no"))
+            {
+                return;
+            }
+
+
+            List<Method> methodListAll = new List<Method>();
+            foreach (ClassGenerator generator in list)
+            {
+                methodListAll.AddRange(generator.MethodList);
+            }
+
+            StringBuilder builder = new StringBuilder();
+            builder.Append("Name, ");
+
+            foreach (Method method in methodListAll)
+            {
+                builder.Append(method.AssociatedClass.FileName + "." + method.Name);
+                builder.Append(", ");
+            }
+            builder.Append("\n");
+
+            foreach (Method method in methodListAll)
+            {
+                builder.Append(method.AssociatedClass.FileName + "." + method.Name);
+                builder.Append(", ");
+                foreach (Method calledMethod in methodListAll)
+                {
+
+                    if (method.CalledMethodsWithClassName.Contains(calledMethod.AssociatedClass.FileName + "." + calledMethod.Name))
+                    {
+                        builder.Append("1, ");
+                    }
+                    else
+                    {
+                        builder.Append("0, ");
+                    }
+                }
+                builder.Append("\n");
+            }
+            writeReachabilityMatrix(builder.ToString());
+        }
 
 		private static void writeReachabilityMatrix(string matrix)
 		{

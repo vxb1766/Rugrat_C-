@@ -146,8 +146,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						output.Append("}\n}");
 
 						string @out = output.ToString();
-	//					System.out.println("Writing L0 level entry classes.");
-
+	
                         fileWriter.Write(@out);
                         fileWriter.Close();
 

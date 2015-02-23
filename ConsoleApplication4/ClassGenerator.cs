@@ -24,13 +24,13 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// </summary>
 	public class ClassGenerator
 	{
-		private string fileName;
-		private int numOfVars;
-		private int percent;
-		private int loc;
+		private string fileName = "";
+		private int numOfVars = 0;
+		private int percent = 0;
+		private int loc = 0;
 		private int nestedIfCounter = 0;
 		private int maxNestedIfs = 30;
-		private int maxAllowedMethodCalls = ProgGenUtil.maxNoOfMethodCalls;
+        private int maxAllowedMethodCalls = 5;//ProgGenUtil.maxNoOfMethodCalls;
 		private int methCounter = 0;
 		private int methCalledCounter = 0;
 		private int locPerMethod = 0;
@@ -40,8 +40,10 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		/// Holds actual class body </summary>
 		private string program = "";
 		private int numberOfMethods = 1;
-
-        private static Int16 randInput = Convert.ToInt16(DateTimeHelperClass.CurrentUnixTimeMillis());
+       
+        //Veena : milliseconds introduced coz date time helper is causing issue.
+        static long milliseconds = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+        private static Int16 randInput = Convert.ToInt16(1000);
         private Random rand = new Random(randInput);
 
 		private HashSet<Field> usedFields = new HashSet<Field>();
@@ -61,7 +63,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		/// <param name="fileName"> </param>
 		/// <param name="loc"> </param>
 		/// <param name="superClass"> </param>
-		public ClassGenerator(string fileName, int loc, ClassGenerator superClass) : base()
+		public ClassGenerator(string fileName, int loc, ClassGenerator superClass)  //: base()
 		{
 			this.fileName = fileName;
 			//Atleast one variable per class. Added in response to Ishtiaque's comment.
@@ -125,7 +127,13 @@ namespace edu.uta.cse.proggen.packageLevelElements
 			preGeneratedClasses.Add(fileName);
 			preGenerate = true;
 		}
-
+        //Veena : Added this to test what was wrong.
+        //public static void Main(string[] args)
+       // {
+       //     ClassGenerator test = new ClassGenerator("TP0", 100 / 5, null);
+      //      Console.Write(test);
+      //      Console.ReadLine();
+       // }
 		/// <summary>
 		/// Generates the actual body or content of the class 
 		/// and updates the set  'generatedClasses' Set of </summary>
