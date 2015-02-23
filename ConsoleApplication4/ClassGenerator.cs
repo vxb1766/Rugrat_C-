@@ -41,7 +41,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		private string program = "";
 		private int numberOfMethods = 1;
 
-		private Random rand = new Random(DateTimeHelperClass.CurrentUnixTimeMillis());
+        private static Int16 randInput = Convert.ToInt16(DateTimeHelperClass.CurrentUnixTimeMillis());
+        private Random rand = new Random(randInput);
 
 		private HashSet<Field> usedFields = new HashSet<Field>();
 		private List<Field> fields = new List<Field>();
@@ -423,7 +424,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 				foreach (Variable variable in signature.ParameterList)
 				{
 					Type type = variable.Type;
-					if (type.Type == Type.Primitives.OBJECT)
+					if (type.getType() == Type.Primitives.OBJECT)
 					{
 						builder.Append("new " + type.ToString() + "()");
 						builder.Append(",");
@@ -436,7 +437,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						}
 						else
 						{
-							builder.Append(new Literal(type.Type));
+							builder.Append(new Literal(type.getType()));
 						}
 						builder.Append(",");
 					}
@@ -488,7 +489,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 				foreach (Variable variable in signature.ParameterList)
 				{
 					Type type = variable.Type;
-					if (type.Type == Type.Primitives.OBJECT)
+					if (type.getType() == Type.Primitives.OBJECT)
 					{
 						builder.Append("new " + type.ToString() + "()");
 						builder.Append(",");
@@ -501,9 +502,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						}
 						else
 						{
-							if (type.Type != Type.Primitives.INT)
+                            if (type.getType() != Type.Primitives.INT)
 							{
-								builder.Append(new Literal(type.Type));
+                                builder.Append(new Literal(type.getType()));
 							}
 							else
 							{
@@ -679,7 +680,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 			List<MethodSignature> list = new List<MethodSignature>();
 			foreach (MethodSignature signature in methodSignatures)
 			{
-				if (signature.ReturnType.Equals(returnType.Type))
+                if (signature.ReturnType.Equals(returnType.getType()))
 				{
 					list.Add(signature);
 				}

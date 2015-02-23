@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace edu.uta.cse.proggen.packageLevelElements
 {
@@ -109,11 +110,11 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 					try
 					{
-						File file = new File(DirPath + "TestPrograms" + File.separator + "com" + File.separator + "accenture" + File.separator + "lab" + File.separator + "carfast" + File.separator + "test" + File.separator + "TStart_L" + level + "_" + i + ".java");
+						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".java";
 
 
 						System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
-						System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
+						//System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
 						StringBuilder output = new StringBuilder();
 
@@ -147,8 +148,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						string @out = output.ToString();
 	//					System.out.println("Writing L0 level entry classes.");
 
-						writer.WriteByte(@out);
-						writer.Close();
+                        fileWriter.Write(@out);
+                        fileWriter.Close();
 
 
 					}
@@ -170,11 +171,11 @@ namespace edu.uta.cse.proggen.packageLevelElements
 					// FiveMLOCStart_L(prevLevel)_0.entryMethod();				
 					try
 					{
-						File file = new File(DirPath + "TestPrograms" + File.separator + "com" + File.separator + "accenture" + File.separator + "lab" + File.separator + "carfast" + File.separator + "test" + File.separator + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start" + ".java");
+						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start" + ".java";
 
 	//					File file = new File("./FiveMLOCStart.java");
 						System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
-						System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
+						//System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
 						StringBuilder output = new StringBuilder();
 
@@ -220,8 +221,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						string @out = output.ToString();
 	//					System.out.println("Writing the 'Start' class.");
 
-						writer.WriteByte(@out);
-						writer.Close();
+					    fileWriter.Write(@out);
+                        fileWriter.Close();
 
 					}
 					catch (Exception e)
@@ -252,11 +253,11 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						try
 						{
 
-							File file = new File(DirPath + "TestPrograms" + File.separator + "com" + File.separator + "accenture" + File.separator + "lab" + File.separator + "carfast" + File.separator + "test" + File.separator + "TStart_L" + level + "_" + i + ".java");
+							String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".java";
 
 	//						File file = new File("./TStart_L"+level+"_"+i+".java");
 							System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
-							System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
+						//	System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
 							StringBuilder output = new StringBuilder();
 
@@ -291,8 +292,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 							string @out = output.ToString();
 	//						System.out.println("Writing mid level classes.");
 
-							writer.WriteByte(@out);
-							writer.Close();
+							fileWriter.Write(@out);
+                            fileWriter.Close();
 
 						}
 						catch (Exception e)
