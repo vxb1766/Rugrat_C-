@@ -46,7 +46,7 @@ namespace edu.uta.cse.proggen.expressions
 				variable = parameterList[(new Random()).Next(parameterList.Count)];
 			}
 
-			method.UsedParameterList.add(variable); // adding to the used variable Set
+			method.UsedParameterList.Add(variable); // adding to the used variable Set
 			return variable;
 		}
 
@@ -60,7 +60,7 @@ namespace edu.uta.cse.proggen.expressions
 				return new Literal(primitive);
 			}
 
-			method.UsedParameterList.add(variable);
+			method.UsedParameterList.Add(variable);
 			return variable;
 		}
 

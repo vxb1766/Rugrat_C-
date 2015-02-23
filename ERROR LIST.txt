@@ -1,0 +1,15 @@
+If you find any common error pattern that reoccurs please write here so it is easy for others to solve in their changes:
+
+Error list
+
+Error ----> Solution
+
+.contains - Change to .Contains
+
+lhs.Type.Type - change to lhs.type.getType()
+
+generator.Fields.size() --> generator.Fields.Count
+
+generator.Fields.get(rand.Next(generator.Fields.Count)) --> generator.Fields[rand.Next(generator.Fields.Count)]
+
+.add --> .Add

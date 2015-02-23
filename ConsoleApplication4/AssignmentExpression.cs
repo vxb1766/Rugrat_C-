@@ -63,7 +63,7 @@ namespace edu.uta.cse.proggen.expressions
 			}
 
 
-			Primitives primitive = lhs.Type.Type;
+            Primitives primitive = lhs.type.getType();
 
 			//If the primitive is an object, invoke constructor
 			if (primitive == Primitives.OBJECT)
@@ -103,7 +103,7 @@ namespace edu.uta.cse.proggen.expressions
 						//we don't want assignments statements like this: i8 = i8
 						while (lhs.Equals(expr.ToString()))
 						{
-							expr = new NormalExpression(method, lhs.Type.Type);
+                            expr = new NormalExpression(method, lhs.type.getType());
 						}
 						output += lhs + " = (" + lhs.Type + ")" + expr.ToString() + ";\n";
 					}
@@ -161,7 +161,7 @@ namespace edu.uta.cse.proggen.expressions
 					//we don't want assignments statements like this: i8 = i8
 					while (lhs.Equals(expr.ToString()))
 					{
-						expr = new NormalExpression(method, lhs.Type.Type);
+                        expr = new NormalExpression(method, lhs.type.getType());
 					}
 					output += lhs + " = (" + lhs.Type + ")" + expr.ToString() + ";\n";
 				}
@@ -264,7 +264,7 @@ namespace edu.uta.cse.proggen.expressions
 			int count = 100;
 			Query query = queryList[index];
 
-			while (!query.ResultTypes.contains(primitive) && count > 0)
+            while (!query.ResultTypes.Contains(primitive) && count > 0)
 			{
 				query = queryList[random.Next(noOfQueries)];
 				count--;

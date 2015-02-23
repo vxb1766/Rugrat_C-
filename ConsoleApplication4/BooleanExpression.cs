@@ -32,7 +32,7 @@ namespace edu.uta.cse.proggen.expressions
 				return;
 			}
 
-			if (!ProgGenUtil.getPrimitivesOfVariables(method).contains(primitive))
+			if (!ProgGenUtil.getPrimitivesOfVariables(method).Contains(primitive))
 			{
 				return;
 			}

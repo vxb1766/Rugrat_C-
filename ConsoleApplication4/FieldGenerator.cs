@@ -32,24 +32,24 @@ namespace edu.uta.cse.proggen.expressions
 			Random rand = new Random();
 
 			// if no fields for this class is available
-			if (generator.Fields.size() == 0)
+			if (generator.Fields.Count == 0)
 			{
 				return null;
 			}
 
-			field = generator.Fields.get(rand.Next(generator.Fields.size()));
+			field = generator.Fields[rand.Next(generator.Fields.Count)];
 			int count = 5000;
 
 			while (field.Static != isStatic && count > 0)
 			{
-				field = generator.Fields.get(rand.Next(generator.Fields.size()));
+				field = generator.Fields[rand.Next(generator.Fields.Count)];
 				count--;
 			}
 
 			if (field.Static == isStatic && count > 0)
 			{
 				// adding to the used variable Set
-				generator.UsedFields.add(field);
+				generator.UsedFields.Add(field);
 				return field;
 			}
 
@@ -74,7 +74,7 @@ namespace edu.uta.cse.proggen.expressions
 				return new Literal(primitive);
 			}
 
-			generator.UsedFields.add(field);
+			generator.UsedFields.Add(field);
 			return field;
 		}
 
@@ -84,7 +84,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			foreach (Field @var in fields)
 			{
-				if (@var.Type.Type == primitive && @var.Static == isStatic)
+				if (@var.type.getType() == primitive && @var.Static == isStatic)
 				{
 					typedFieldList.Add(@var);
 				}

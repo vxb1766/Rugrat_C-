@@ -4,7 +4,7 @@ using System.Text;
 namespace edu.uta.cse.proggen.expressions
 {
 
-	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
+    using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 
@@ -26,42 +26,42 @@ namespace edu.uta.cse.proggen.expressions
 		{
 			Random random = new Random();
 
-			switch (primitive)
+			switch (primitive.ToString())
 			{
-				case CHAR:
+				case "CHAR":
 					literal = "'" + (new char?(alphabets[random.Next(26)])).ToString() + "'";
 					break;
 
-				case BYTE:
-					sbyte[] bytes = new sbyte[100];
-					random.NextBytes(bytes);
-					sbyte b = bytes[random.Next(99)];
+				case "BYTE":
+					byte[] bytes = new byte[100];
+                    random.NextBytes(bytes);
+					sbyte b = (sbyte)bytes[random.Next(99)];
 					literal = "(byte)(" + (new sbyte?(b)).ToString() + ")";
 					break;
 
-				case SHORT:
+				case "SHORT":
 					short shortVal = (short)random.Next(32768);
 					literal = "(short)(" + shortVal + ")";
 					break;
 
-				case INT:
+				case "INT":
 					literal = "(int)(" + ((new int?(random.Next(ProgGenUtil.integerMaxValue))).ToString()) + ")";
 					break;
 
-				case LONG:
+				case "LONG":
 					//long literals can cause out-of-range exceptions. using compatible int instead
 					literal = "(long)(" + (new long?(random.Next(ProgGenUtil.integerMaxValue))).ToString() + ")";
 					break;
 
-				case FLOAT:
-					literal = "(float)(" + (new float?(random.nextFloat())).ToString() + ")";
+				case "FLOAT":
+					literal = "(float)(" + (new float?((float)random.NextDouble())).ToString() + ")";
 					break;
 
-				case DOUBLE:
+				case "DOUBLE":
 					literal = "(double)(" + (new double?(random.NextDouble())).ToString() + ")";
 					break;
 
-				case STRING:
+				case "STRING":
 					StringBuilder builder = new StringBuilder();
 					int max = random.Next(100) + 2;
 					for (int i = 0; i < max; i++)

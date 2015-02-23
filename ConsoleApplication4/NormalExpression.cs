@@ -52,7 +52,7 @@ namespace edu.uta.cse.proggen.expressions
 			{
 				if (field.Static == isStatic)
 				{
-					primitivesSet.Add(field.Type.Type);
+					primitivesSet.Add(field.type.getType());
 				}
 			}
 			return primitivesSet;
