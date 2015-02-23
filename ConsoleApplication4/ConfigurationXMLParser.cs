@@ -42,6 +42,7 @@ namespace edu.uta.cse.proggen.configurationParser
 			{
 				//DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
                 string filename = (Start.Start.PathToDir + "config.xml");
+                document = new XmlDocument();
 				document.Load(filename);
 				try
 				{
@@ -69,13 +70,13 @@ namespace edu.uta.cse.proggen.configurationParser
             //    Console.Write(e.StackTrace);
             //    Environment.Exit(1);
             //}
-			catch (IOException e)
-			{
-				Console.WriteLine("error processing XML configuration file!");
-				Console.WriteLine(e.ToString());
-				Console.Write(e.StackTrace);
-				Environment.Exit(1);
-			}
+            catch (IOException e)
+            {
+                Console.WriteLine("error processing XML configuration file!");
+                Console.WriteLine(e.ToString());
+                Console.Write(e.StackTrace);
+                Environment.Exit(1);
+            }
 		}
 
 		private static XmlNode RootNode
@@ -104,7 +105,7 @@ namespace edu.uta.cse.proggen.configurationParser
 					parseAllowedTypes(node);
 					continue;
 				}
-                string value = node.Value;
+                string value = node.InnerText;
 				properties[name] = value;
 			}
 		}
@@ -123,7 +124,7 @@ namespace edu.uta.cse.proggen.configurationParser
 
 			for (int i = 0; i < noOfTypes; i++)
 			{
-				string str = typeNodes.Item(i).Value.Trim();
+				string str = typeNodes.Item(i).InnerText.Trim();
 				if (str.Equals(""))
 				{
 					continue;
