@@ -3,6 +3,7 @@ This tool converts Prof. Csallner's &amp; team's work to c#. The code is written
 <h3>Files you need to monitor</h3><hr>
 <h5><ol><li> Dropbox - https://www.dropbox.com/sh/6vbi2r04yvod41z/AACHVm4ASxVli1_hvMtuMrt8a?dl=0</li>
 <li>Github Solution Files - https://github.com/vxb1766/Rugrat_C-/tree/master/SlutionFiles</li>
+<li>Output will be written to : C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test. Remember to change the path accordingly.</li>
 </h5>
 <hr>
 <h4>Current Issue's<hr>
