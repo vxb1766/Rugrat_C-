@@ -107,7 +107,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 
 		/// <summary>
 		/// Constructor that creates a method with/without
-		/// generating the method body based on the generateMethodBody
+		/// generating the method body based on the needMethodBody
 		/// parameter.
 		/// </summary>
 		/// <param name="isStatic"> </param>
@@ -118,8 +118,8 @@ namespace edu.uta.cse.proggen.classLevelElements
 		/// <param name="locPerMethod"> </param>
 		/// <param name="maxNestedIfs"> </param>
 		/// <param name="maxAllowedMethodCalls"> </param>
-		/// <param name="generateMethodBody"> </param>
-		private Method(bool isStatic, int numberOfParams, ClassGenerator associatedClass, List<ClassGenerator> classList, string name, int locPerMethod, int maxNestedIfs, int maxAllowedMethodCalls, bool generateMethodBody)
+		/// <param name="needMethodBody"> </param>
+		private Method(bool isStatic, int numberOfParams, ClassGenerator associatedClass, List<ClassGenerator> classList, string name, int locPerMethod, int maxNestedIfs, int maxAllowedMethodCalls, bool needMethodBody)
 		{
 			Console.WriteLine("Constructing method..." + name);
 			this.isStatic = isStatic;
@@ -138,7 +138,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 
 			this.methodSignature = new MethodSignature(this.isStatic, this.returnType, this.name, this.parameterList);
 
-			if (generateMethodBody)
+			if (needMethodBody)
 			{
 				generateMethodBody();
 				generateReturnStatement();
@@ -206,9 +206,9 @@ namespace edu.uta.cse.proggen.classLevelElements
 			while (loc < locPerMethod)
 			{
 					int option = 0;
-					if (ProgGenUtil.AllowedTypes.contains("int"))
+					if (ProgGenUtil.AllowedTypes.Contains("int"))
 					{
-						if (ProgGenUtil.getValidPrimitivesInScope(this).contains(Primitives.INT))
+						if (ProgGenUtil.getValidPrimitivesInScope(this).Contains(Primitives.INT))
 						{
 							option = rand.Next(4);
 						}
@@ -277,7 +277,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 					}
     
 					Operand operand;
-					Primitives primitive = @var.Type.Type;
+                    Primitives primitive = @var.Type.getType();
 					int optionVariableOrField = (new Random()).Next(1);
 					if (optionVariableOrField == 0)
 					{
@@ -467,22 +467,22 @@ namespace edu.uta.cse.proggen.classLevelElements
 		/// <param name="maxLocPerMethod"> </param>
 		/// <param name="maxNestedIfs"> </param>
 		/// <param name="maxAllowedMethodCalls"> </param>
-		/// <param name="generateMethodBody">
+		/// <param name="needMethodBody">
 		/// @return </param>
-		public static Method generateMethod(ClassGenerator generator, int maxNumberOfParams, List<ClassGenerator> classList, string name, int maxLocPerMethod, int maxNestedIfs, int maxAllowedMethodCalls, bool generateMethodBody)
+		public static Method generateMethod(ClassGenerator generator, int maxNumberOfParams, List<ClassGenerator> classList, string name, int maxLocPerMethod, int maxNestedIfs, int maxAllowedMethodCalls, bool needMethodBody)
 		{
 			bool isStatic = ProgGenUtil.coinFlip();
 
 			//we need minimum of two parameters
 			int numberOfParams = ProgGenUtil.getRandomIntInRange(maxNumberOfParams);
 
-	//		if(numberOfParams<2)
+	        //if(numberOfParams<2)
 			if (numberOfParams < ProgGenUtil.minNoOfParameters)
 			{
 				numberOfParams = ProgGenUtil.minNoOfParameters;
 			}
 
-			return new Method(isStatic, numberOfParams, generator, classList, name, maxLocPerMethod, maxNestedIfs, maxAllowedMethodCalls, generateMethodBody);
+			return new Method(isStatic, numberOfParams, generator, classList, name, maxLocPerMethod, maxNestedIfs, maxAllowedMethodCalls, needMethodBody);
 		}
 
 		public override string ToString()
