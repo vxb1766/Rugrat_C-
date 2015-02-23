@@ -7,7 +7,7 @@ using edu.uta.cse.proggen;
 
 
 
-namespace start
+namespace edu.uta.cse.proggen.start.Start
 {
     using Method = edu.uta.cse.proggen.classLevelElements.Method;
     using ConfigurationXMLParser = edu.uta.cse.proggen.configurationParser.ConfigurationXMLParser;
