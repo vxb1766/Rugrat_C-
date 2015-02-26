@@ -415,7 +415,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private void generateMain()
 		{
-			program += "\npublic static void main(String args[]){\n";
+			program += "\npublic static void main(string[] args){\n";
 			program += this.fileName + " obj = new " + this.fileName + "();\n";
 			foreach (Method method in this.methodList)
 			{

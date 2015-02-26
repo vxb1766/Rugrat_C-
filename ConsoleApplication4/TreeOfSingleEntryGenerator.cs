@@ -110,7 +110,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 					try
 					{
-						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".java";
+						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".cs";
 
 
 						System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
@@ -168,13 +168,13 @@ namespace edu.uta.cse.proggen.packageLevelElements
 			{
 				if (level == LEVEL)
 				{
-					// create FiveMLOCStart.java class that will call
+					// create FiveMLOCStart.cs class that will call
 					// FiveMLOCStart_L(prevLevel)_0.entryMethod();				
 					try
 					{
-						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start" + ".java";
+						String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start" + ".cs";
 
-	//					File file = new File("./FiveMLOCStart.java");
+	//					File file = new File("./FiveMLOCStart.cs");
 						System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
 						//System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
@@ -256,9 +256,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						try
 						{
 
-							String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".java";
+							String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".cs";
 
-	//						File file = new File("./TStart_L"+level+"_"+i+".java");
+	//						File file = new File("./TStart_L"+level+"_"+i+".cs");
 							System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
 						//	System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
