@@ -14,7 +14,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	public class DBUtilGenerator
 	{
 		private string packageString = "namespace com.accenture.lab.carfast.test\n{\n\n";
-		private string importString = "import java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.PreparedStatement;\n" + "import java.sql.ResultSet;\nimport java.sql.SQLException;\nimport java.util.Properties;\n\n\n\n";
+		//private string importString = "import java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.PreparedStatement;\n" + "import java.sql.ResultSet;\nimport java.sql.SQLException;\nimport java.util.Properties;\n\n\n\n";
 
 		private string classnameString = "public class DBUtil{\n";
 		private string membersString = "private static	DBUtil	dbUtil;\nprivate Connection	connection;\n";
@@ -28,7 +28,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		{
 			StringBuilder builder = new StringBuilder();
 			builder.Append(packageString);
-			builder.Append(importString);
+			//builder.Append(importString);
 			builder.Append(classnameString);
 			builder.Append(membersString);
 			builder.Append(constructorString);
