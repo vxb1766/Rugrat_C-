@@ -29,7 +29,11 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private void appendPackageName()
 		{
-			program += "package com.accenture.lab.carfast.test;\n\n\n";
+			//program += "package com.accenture.lab.carfast.test;\n\n\n";
+            //Srujana: using System import necessary for all C# programs
+            program += "using System;\n\n\n";
+            //Srujana: C# packages are called namespaces
+            program += "namespace com.accenture.lab.carfast.test{\n\n\n";
 		}
 		private void appendClassName()
 		{

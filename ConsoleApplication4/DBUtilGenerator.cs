@@ -13,7 +13,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// </summary>
 	public class DBUtilGenerator
 	{
-		private string packageString = "package com.accenture.lab.carfast.test;\n\n\n";
+		private string packageString = "namespace com.accenture.lab.carfast.test\n{\n\n";
 		private string importString = "import java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.PreparedStatement;\n" + "import java.sql.ResultSet;\nimport java.sql.SQLException;\nimport java.util.Properties;\n\n\n\n";
 
 		private string classnameString = "public class DBUtil{\n";
@@ -22,7 +22,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private string methodsString = "public static DBUtil getDBUtil(){\n" + "if(dbUtil == null)	{\n" + "dbUtil = new DBUtil();\n}\n" + "return dbUtil;\n }\n\n" + "public ResultSet executeQuery(String sql){\n" + "try {\n" + "PreparedStatement ps = connection.prepareStatement(sql);\n" + "return ps.executeQuery();\n}\n" + "catch (SQLException e) {\n" + "e.printStackTrace();\n" + "return null;\n}\n}\n\n";
 
-		private string endOfClassString = "\n}\n";
+		private string endOfClassString = "\n}\n}\n";
 
 		public override string ToString()
 		{

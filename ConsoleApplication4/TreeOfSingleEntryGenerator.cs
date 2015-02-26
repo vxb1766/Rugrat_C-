@@ -117,8 +117,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						//System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
 						StringBuilder output = new StringBuilder();
-
-						output.Append("package com.accenture.lab.carfast.test;\n\n");
+                        
+                        output.Append("using System;\n\n\n");
+                        output.Append("namespace com.accenture.lab.carfast.test{\n\n\n");
 						output.Append("public class TStart_L" + level + "_" + i + "{\n");
 						for (int k = 0; k < ProgGenUtil.maxNoOfParameters; k++)
 						{
@@ -179,7 +180,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 						StringBuilder output = new StringBuilder();
 
-						output.Append("package com.accenture.lab.carfast.test;\n\n");
+                        output.Append("using System;\n\n\n");
+                        output.Append("namespace com.accenture.lab.carfast.test{\n\n\n");
+						//output.Append("package com.accenture.lab.carfast.test;\n\n");
 	//					output.append("public class FiveMLOCStart {\n");
 						output.Append("public class " + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start {\n");
 						for (int k = 0; k < ProgGenUtil.maxNoOfParameters; k++)
@@ -261,7 +264,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 							StringBuilder output = new StringBuilder();
 
-							output.Append("package com.accenture.lab.carfast.test;\n\n");
+						//	output.Append("package com.accenture.lab.carfast.test;\n\n");
+                            output.Append("using System;\n\n\n");
+                            output.Append("namespace com.accenture.lab.carfast.test{\n\n\n");
 							output.Append("public class TStart_L" + level + "_" + i + "{\n");
 							for (int k = 0; k < ProgGenUtil.maxNoOfParameters; k++)
 							{

@@ -43,7 +43,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
        
         //Veena : milliseconds introduced coz date time helper is causing issue.
         static long milliseconds = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-        private static Int16 randInput = Convert.ToInt16(9999);
+        private static Int32 randInput = Convert.ToInt32(2147483647);
         private Random rand = new Random(randInput);
 
 		private HashSet<Field> usedFields = new HashSet<Field>();
@@ -545,6 +545,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		{
 			// closing brace of the class
 			program += "\n}";
+            //closing brace of namespace
+            program += "\n}";
 		}
 
 		private MethodSignature overRiddenMethod(List<ClassGenerator> classList, int loc)
@@ -659,7 +661,12 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private void appendPackageName()
 		{
-			program += "package com.accenture.lab.carfast.test;\n\n\n";
+			//program += "package com.accenture.lab.carfast.test;\n\n\n";
+            //Srujana: using System import necessary for all C# programs
+            program += "using System;\n\n\n";
+            //Srujana: C# packages are called namespaces
+            program += "namespace com.accenture.lab.carfast.test{\n\n\n";
+
 		}
 
 		private void generateClassFields(List<ClassGenerator> classList)
