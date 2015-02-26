@@ -153,14 +153,16 @@ namespace edu.uta.cse.proggen.packageLevelElements
 				preGenerateForMethodSignature(classList, preGeneratedClasses);
 			}
 
+            //append import statements
+            //if (ProgGenUtil.useQueries)
+            //{
+            //    appendImportStatements();
+            //}
+
 			// append package name
 			appendPackageName();
 
-			//append import statements
-			if (ProgGenUtil.useQueries)
-			{
-				appendImportStatements();
-			}
+			
 
 			Console.WriteLine("appending classname...");
 			// append class name
@@ -193,9 +195,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		}
 
 		private void appendImportStatements()
-		{
-			program += "import java.sql.ResultSet;\n";
-			program += "import java.util.Random;\n\n\n";
+		{   //not needed for C#
+			//program += "import java.sql.ResultSet;\n";
+			//program += "import java.util.Random;\n\n\n";
 		}
 
 		private void appendInjectedContents()
