@@ -36,7 +36,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 		/// </summary>
 		public override string ToString()
 		{
-			string str = "public virtual";
+			string str = "public virtual ";
 
 			if (isStatic)
 			{
