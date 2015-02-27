@@ -17,12 +17,12 @@ namespace edu.uta.cse.proggen.expressions
 	{
 		internal readonly char[] alphabets = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
-		public Literal(Primitives primitive)
+		public Literal(Primitives primitive , int randomRange)
 		{
-			assignLiteralForType(primitive);
+			assignLiteralForType(primitive,randomRange);
 		}
 
-		private void assignLiteralForType(Primitives primitive)
+		private void assignLiteralForType(Primitives primitive , int randomRange)
 		{
 			Random random = new Random();
 
@@ -71,8 +71,17 @@ namespace edu.uta.cse.proggen.expressions
 					literal = "\"" + builder.ToString() + "\"";
 					break;
 
+                case "OTHER" :
+                    literal = "(int)(" + "var"+(randomRange+1)+ ")";
+                    //literal;
+
+                    break;
+
 				default:
-					literal = "null";
+                    literal = "null";
+                  
+
+
 				break;
 			}
 		}

@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Text.RegularExpressions;
 namespace edu.uta.cse.proggen.expressions
 {
 
@@ -38,19 +38,38 @@ namespace edu.uta.cse.proggen.expressions
 			// removing expressions of the form: (i5-i5) to avoid {i19%(i5-i5)}expr.
 			if (leftOprnd.ToString().Equals(rightOprnd.ToString()))
 			{
-				rightOprnd = new Literal(primitive);
-			}
+                //rightOprnd = new Literal(primitive);
+                //String test = rightOprnd.ToString().SubstringSpecial(rightOprnd.ToString().Length-1, rightOprnd.ToString().Length);
+                //test = test;
+                //Primitives t = Primitives.OTHER;
+                //String testValue = t.ToString();
+
+                string pattern = "[^0-9]+";
+                string replacement = "";
+                Regex rgx = new Regex(pattern);
+                string test = rgx.Replace(rightOprnd.ToString(), replacement);
+                Primitives t = Primitives.OTHER;
+
+                rightOprnd = new Literal(t,Convert.ToInt32(test));
+            }
+            else
+            {
+                bool testfalse = false;
+            }
 
 			// for division and modulo operations, keeping only literals in the right expr.
 			// i5%i3 => i5%constantValue OR f2/f4 => f2/constantValue
+            bool test1 = binOp.ToString().Equals("/") || binOp.ToString().Equals("%");
+            //if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
+            //{
+            //    do
+            //    { //FIXME: only handles int for now.
+            //        rightOprnd = new Literal(primitive,Int32.MaxValue);
+            //        rightOprnd.ToString().EndsWith("0");
 
-			if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
-			{
-				do
-				{ //FIXME: only handles int for now.
-					rightOprnd = new Literal(primitive);
-				}while (rightOprnd.ToString().Contains("(0)")); //avoiding divide by (0)
-			}
+
+            //    }while ( rightOprnd.ToString().EndsWith("0")); //avoiding divide by (0)
+            //}
 
 		}
 

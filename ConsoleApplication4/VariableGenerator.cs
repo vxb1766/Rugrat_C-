@@ -57,7 +57,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			if (variable == null)
 			{
-				return new Literal(primitive);
+				return new Literal(primitive,Int32.MaxValue);
 			}
 
 			method.UsedParameterList.Add(variable);
@@ -104,7 +104,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			if (typedVariableList.Count == 0)
 			{
-				return new Literal(Type.Primitives.OBJECT);
+                return new Literal(Type.Primitives.OBJECT, Int32.MaxValue);
 			}
 
 			int index = (new Random()).Next(typedVariableList.Count);

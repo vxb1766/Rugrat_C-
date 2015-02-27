@@ -71,7 +71,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			if (field == null)
 			{
-				return new Literal(primitive);
+				return new Literal(primitive,Int32.MaxValue);
 			}
 
 			generator.UsedFields.Add(field);
@@ -121,7 +121,7 @@ namespace edu.uta.cse.proggen.expressions
 
 			if (typedFieldList.Count == 0)
 			{
-				return new Literal(Type.Primitives.OBJECT);
+				return new Literal(Type.Primitives.OBJECT,Int32.MaxValue);
 			}
 
 			int index = (new Random()).Next(typedFieldList.Count);

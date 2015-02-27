@@ -43,8 +43,20 @@ namespace edu.uta.cse.proggen.packageLevelElements
        
         //Veena : milliseconds introduced coz date time helper is causing issue.
         static long milliseconds = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+<<<<<<< HEAD
       
         private Random rand = new Random();
+=======
+<<<<<<< HEAD
+        //private static Int64 randInput = Convert.ToInt16(9999);
+        //private Random rand = new Random(randInput);
+        private Random rand = new Random();
+        
+=======
+        private static Int32 randInput = Convert.ToInt32(2147483647);
+        private Random rand = new Random(randInput);
+>>>>>>> origin/master
+>>>>>>> origin/master
 
 		private HashSet<Field> usedFields = new HashSet<Field>();
 		private List<Field> fields = new List<Field>();
@@ -447,7 +459,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						}
 						else
 						{
-							builder.Append(new Literal(type.getType()));
+							builder.Append(new Literal(type.getType(),Int32.MaxValue));
 						}
 						builder.Append(",");
 					}
@@ -514,7 +526,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 						{
                             if (type.getType() != Type.Primitives.INT)
 							{
-                                builder.Append(new Literal(type.getType()));
+                                builder.Append(new Literal(type.getType(), Int32.MaxValue));
 							}
 							else
 							{

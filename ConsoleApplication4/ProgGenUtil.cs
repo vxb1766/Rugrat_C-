@@ -144,6 +144,7 @@ namespace edu.uta.cse.proggen.util
             primitivesMap["double"] = Type.Primitives.DOUBLE;
             primitivesMap["String"] = Type.Primitives.STRING;
             primitivesMap["Object"] = Type.Primitives.OBJECT;
+            primitivesMap["Other"] = Type.Primitives.OTHER;
             readInjectContents();
             maximumArraySize = ConfigurationXMLParser.getPropertyAsInt("maximumArraySize");
             if (ConfigurationXMLParser.getProperty("useQueries").Equals("true", StringComparison.InvariantCultureIgnoreCase))
@@ -171,7 +172,9 @@ namespace edu.uta.cse.proggen.util
             }
             else
             {
-                methodCallType = CallType.localWithoutRecursionLimit;
+                //Original: methodCallType = CallType.localWithoutRecursionLimit;
+                //Veena : Changed it to 
+                methodCallType = CallType.localWithRecursionLimit;
             }
         }
 
@@ -487,7 +490,7 @@ namespace edu.uta.cse.proggen.util
                 List<MethodSignature> methodList = method.AssociatedClass.MethodSignatures;
                 if (methodList.Count < 1)
                 {
-                    return lhs + " = " + (new Literal(returnType.getType())).ToString() + ";";
+                    return lhs + " = " + (new Literal(returnType.getType(), Int32.MaxValue)).ToString() + ";";
                 }
 
                 MethodSignature methodToBeInvoked = getMethodToBeInvoked(methodList, method.Static, returnType, method.MethodSignature);
@@ -495,7 +498,7 @@ namespace edu.uta.cse.proggen.util
 
                 if (methodToBeInvoked == null)
                 {
-                    return lhs + " = " + (new Literal(returnType.getType())).ToString() + ";";
+                    return lhs + " = " + (new Literal(returnType.getType(), Int32.MaxValue)).ToString() + ";";
                 }
 
                 //Check if indirect recursion is allowed:
@@ -511,7 +514,7 @@ namespace edu.uta.cse.proggen.util
 
                         if (callerMethodID >= calleeMethodID)
                         {
-                            return lhs + " = " + (new Literal(returnType.getType())).ToString() + ";";
+                            return lhs + " = " + (new Literal(returnType.getType(), Int32.MaxValue)).ToString() + ";";
                         }
                     }
                     catch (System.FormatException e)
@@ -600,7 +603,7 @@ namespace edu.uta.cse.proggen.util
                 //    }
                 //}
             }
-            return lhs + " = " + (new Literal(returnType.getType())).ToString() + ";";
+            return lhs + " = " + (new Literal(returnType.getType(), Int32.MaxValue)).ToString() + ";";
         }
 
         //JAVA TO C# CONVERTER TODO TASK: Most Java annotations will not have direct .NET equivalent attributes:
@@ -874,7 +877,7 @@ namespace edu.uta.cse.proggen.util
             Primitives[] primitiveArray = primitiveSet.ToArray();
 
             int index = (new Random()).Next(primitiveArray.Length);
-            return (Type.Primitives)primitiveArray[index];
+                 return (Type.Primitives)primitiveArray[index];
         }
 
         public static HashSet<Type.Primitives> getPrimitivesOfVariables(Method method)

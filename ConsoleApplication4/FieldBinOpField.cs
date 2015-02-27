@@ -1,5 +1,6 @@
 ﻿using System;
 
+//This entire thing is never called
 namespace edu.uta.cse.proggen.expressions
 {
 
@@ -37,19 +38,19 @@ namespace edu.uta.cse.proggen.expressions
 			// removing expressions of the form: (i5-i5) to avoid {i19%(i5-i5)}expr.
 			if (leftOprnd.ToString().Equals(rightOprnd.ToString()))
 			{
-				rightOprnd = new Literal(primitive);
+                rightOprnd = new Literal(primitive, Int32.MaxValue);
 			}
 
 			// for division and modulo operations, keeping only literals in the right expr.
 			// i5%i3 => i5%constantValue OR f2/f4 => f2/constantValue
 
-			if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
-			{
-				do
-				{ //FIXME: only handles int for now.
-					rightOprnd = new Literal(primitive);
-				}while (rightOprnd.ToString().Contains("(0)")); //avoiding divide by (0)
-			}
+            //if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
+            //{
+            //    do
+            //    { //FIXME: only handles int for now.
+            //        rightOprnd = new Literal(primitive, Int32.MaxValue);
+            //    }while (rightOprnd.ToString().Contains("(0)")); //avoiding divide by (0)
+            //}
 
 		}
 
