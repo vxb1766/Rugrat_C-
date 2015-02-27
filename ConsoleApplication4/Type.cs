@@ -27,7 +27,7 @@ namespace edu.uta.cse.proggen.classLevelElements
         //Veena : Testing Primitives 
         public enum Primitives
         {
-            CHAR, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, STRING, OBJECT
+            CHAR, BYTE, SHORT, INT, LONG, FLOAT, DOUBLE, STRING, OBJECT,OTHER
         };
 
         Primitives p;
@@ -72,6 +72,7 @@ namespace edu.uta.cse.proggen.classLevelElements
             return true;
         }
 
+        //Veena : this is never executed.
         public static Primitives reverseLookup(string primitive)
         {
             if (primitive.Equals("char", StringComparison.CurrentCultureIgnoreCase))
@@ -141,7 +142,9 @@ namespace edu.uta.cse.proggen.classLevelElements
 
                 case Primitives.STRING:
                     return "String";
-               
+
+                case Primitives.OTHER:
+                    return "Other";
            
                 default:
                     return "Object";

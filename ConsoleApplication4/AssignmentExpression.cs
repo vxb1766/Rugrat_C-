@@ -82,13 +82,13 @@ namespace edu.uta.cse.proggen.expressions
 
 				// Removing variable from right expr. if binOp is / or %
 				// i6=(i3/2)%(i3-5)  => i6=(i3/2)%constant
-				if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
-				{
-					do
-					{ //FIXME: only handles int for now.
-						rightExpr = new Literal(primitive);
-					}while (rightExpr.ToString().Contains("(0)")); //avoiding divide by (0)
-				}
+                //if (binOp.ToString().Equals("/") || binOp.ToString().Equals("%"))
+                //{
+                //    do
+                //    { //FIXME: only handles int for now.
+                //        rightExpr = new Literal(primitive,Int32.MaxValue);
+                //    }while (rightExpr.ToString().Contains("(0)")); //avoiding divide by (0)
+                //}
 
 				output += lhs + " = (" + lhs.Type + ")(" + leftExpr + binOp.ToString() + rightExpr + ");\n";
 			}
@@ -115,7 +115,7 @@ namespace edu.uta.cse.proggen.expressions
 						if (query == null)
 						{
 							//no query results
-							output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive) + ";\n";
+                            output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive, Int32.MaxValue) + ";\n";
 							return;
 						}
 
@@ -135,7 +135,7 @@ namespace edu.uta.cse.proggen.expressions
 						if (queryResultsForType.Count == 0)
 						{
 							//no query results present for expected type.
-							output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive) + ";\n";
+                            output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive, Int32.MaxValue) + ";\n";
 							return;
 						}
 
@@ -145,7 +145,7 @@ namespace edu.uta.cse.proggen.expressions
 						string result = getValueFromResultSet(primitive, selectedResult);
 						if (result == null)
 						{
-							output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive) + ";\n";
+                            output += lhs + " = (" + lhs.Type + ")" + new Literal(primitive, Int32.MaxValue) + ";\n";
 							return;
 						}
 						builder.Append(lhs + " = (" + lhs.Type + ")" + result + "\n\n");

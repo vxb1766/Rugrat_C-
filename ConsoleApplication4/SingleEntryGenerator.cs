@@ -98,19 +98,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 			program += "\n\n";
 
-			// calling class' single-entry method
-
-	//		StringBuilder fields = new StringBuilder();
-	//		for(int i = 0; i < ProgGenUtil.maxNoOfParameters; i++){
-	//			fields.append("f"+i+",");
-	//		}
-	//		String f = fields.toString();
-	//		f = f.substring(0, fields.length() - 1);
-	//		
-	//		for(ClassGenerator cls : listOfClasses){
-	//			program += cls.getFileName()+"." + "singleEntry(" + f + ");\n";
-	//		}	
-
+       
 			for (int i = 0; i < noOfMethCalls; i++)
 			{
 				program += "subEntryMethod" + i + "();\n";

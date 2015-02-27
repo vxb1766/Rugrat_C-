@@ -164,7 +164,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 			}
 			else
 			{
-				operand = new Literal(this.returnType);
+                operand = new Literal(this.returnType, Int32.MaxValue);
 			}
 
 			builder.Append(operand);
