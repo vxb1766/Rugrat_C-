@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP17 {
+
+
+public virtual static INT TP17method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP17method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP17method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP17method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+
+public static void main(string[] args){
+TP17 obj = new TP17();
+TP17method0((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method1((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method2((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method3((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method4((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method5((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method6((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method7((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method8((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method9((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method10((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method11((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method12((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method13((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method14((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method15((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method16((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method17((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method18((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method19((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method20((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method21((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method22((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method23((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method24((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method25((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method26((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method27((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method28((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method29((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method30((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method31((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method32((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method33((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method34((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method35((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method36((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method37((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method38((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method39((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method40((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method41((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method42((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method43((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method44((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method45((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method46((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method47((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method48((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method49((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method50((int)(44),(int)(44),(int)(44),(int)(44));
+TP17method51((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method52((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method53((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method54((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method55((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method56((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method57((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method58((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method59((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method60((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method61((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method62((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method63((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method64((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method65((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method66((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method67((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method68((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method69((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method70((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method71((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method72((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method73((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method74((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method75((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method76((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method77((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method78((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method79((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method80((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method81((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method82((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method83((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method84((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method85((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method86((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method87((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method88((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method89((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method90((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method91((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method92((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method93((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method94((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method95((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method96((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method97((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method98((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method99((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method100((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method101((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method102((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method103((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method104((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method105((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method106((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method107((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method108((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method109((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method110((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method111((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method112((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method113((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method114((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method115((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method116((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method117((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method118((int)(44),(int)(44),(int)(44),(int)(44));
+obj.TP17method119((int)(44),(int)(44),(int)(44),(int)(44));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP17 obj = new TP17();
+TP17method0(i4,i1,i0,i2);
+TP17method1(i2,i1,i3,i0);
+TP17method2(i0,i4,i2,i1);
+TP17method3(i1,i3,i2,i4);
+TP17method4(i4,i1,i0,i2);
+TP17method5(i2,i4,i3,i0);
+TP17method6(i0,i4,i1,i3);
+TP17method7(i3,i2,i4,i0);
+TP17method8(i0,i1,i2,i4);
+TP17method9(i4,i3,i0,i2);
+TP17method10(i2,i1,i3,i4);
+TP17method11(i4,i1,i0,i2);
+TP17method12(i2,i3,i4,i0);
+TP17method13(i0,i2,i1,i3);
+TP17method14(i3,i0,i4,i1);
+TP17method15(i1,i0,i2,i4);
+TP17method16(i4,i3,i0,i1);
+TP17method17(i1,i2,i3,i0);
+TP17method18(i0,i4,i1,i3);
+TP17method19(i3,i2,i4,i0);
+TP17method20(i0,i2,i1,i3);
+TP17method21(i3,i4,i0,i1);
+TP17method22(i1,i3,i2,i4);
+TP17method23(i4,i1,i0,i2);
+TP17method24(i2,i1,i3,i0);
+TP17method25(i0,i4,i1,i2);
+TP17method26(i2,i3,i4,i1);
+TP17method27(i1,i0,i2,i4);
+TP17method28(i4,i3,i0,i1);
+TP17method29(i1,i3,i2,i4);
+TP17method30(i4,i0,i1,i2);
+TP17method31(i2,i4,i3,i0);
+TP17method32(i0,i2,i1,i3);
+TP17method33(i3,i2,i4,i1);
+TP17method34(i1,i0,i2,i4);
+TP17method35(i4,i3,i0,i2);
+TP17method36(i2,i1,i3,i0);
+TP17method37(i0,i4,i1,i2);
+TP17method38(i2,i4,i3,i0);
+TP17method39(i0,i2,i1,i3);
+TP17method40(i3,i2,i0,i4);
+TP17method41(i4,i1,i3,i2);
+TP17method42(i2,i4,i3,i0);
+TP17method43(i0,i2,i1,i3);
+TP17method44(i3,i0,i4,i1);
+TP17method45(i1,i0,i2,i3);
+TP17method46(i3,i4,i1,i0);
+TP17method47(i0,i2,i1,i3);
+TP17method48(i3,i0,i4,i1);
+TP17method49(i1,i3,i2,i4);
+TP17method50(i4,i3,i0,i1);
+TP17method51(i1,i2,i4,i3);
+obj.TP17method52(i3,i0,i4,i1);
+obj.TP17method53(i1,i3,i2,i4);
+obj.TP17method54(i4,i1,i0,i2);
+obj.TP17method55(i2,i1,i3,i4);
+obj.TP17method56(i4,i0,i2,i1);
+obj.TP17method57(i1,i3,i2,i4);
+obj.TP17method58(i4,i1,i0,i2);
+obj.TP17method59(i2,i4,i3,i0);
+obj.TP17method60(i0,i4,i1,i2);
+obj.TP17method61(i2,i3,i0,i4);
+obj.TP17method62(i4,i1,i0,i2);
+obj.TP17method63(i2,i4,i3,i0);
+obj.TP17method64(i0,i2,i1,i3);
+obj.TP17method65(i3,i2,i4,i0);
+obj.TP17method66(i0,i1,i3,i2);
+obj.TP17method67(i2,i4,i3,i0);
+obj.TP17method68(i0,i2,i1,i3);
+obj.TP17method69(i3,i0,i4,i1);
+obj.TP17method70(i1,i0,i2,i3);
+obj.TP17method71(i3,i4,i1,i0);
+obj.TP17method72(i0,i2,i1,i3);
+obj.TP17method73(i3,i0,i4,i1);
+obj.TP17method74(i1,i3,i2,i4);
+obj.TP17method75(i4,i3,i0,i2);
+obj.TP17method76(i2,i1,i4,i3);
+obj.TP17method77(i3,i0,i4,i1);
+obj.TP17method78(i1,i3,i2,i4);
+obj.TP17method79(i4,i1,i0,i2);
+obj.TP17method80(i2,i1,i3,i0);
+obj.TP17method81(i0,i4,i1,i2);
+obj.TP17method82(i2,i1,i3,i4);
+obj.TP17method83(i4,i1,i0,i2);
+obj.TP17method84(i2,i4,i3,i0);
+obj.TP17method85(i0,i4,i1,i3);
+obj.TP17method86(i3,i2,i4,i0);
+obj.TP17method87(i0,i1,i2,i4);
+obj.TP17method88(i4,i3,i0,i2);
+obj.TP17method89(i2,i1,i3,i4);
+obj.TP17method90(i4,i1,i0,i2);
+obj.TP17method91(i2,i3,i4,i0);
+obj.TP17method92(i0,i2,i1,i3);
+obj.TP17method93(i3,i0,i4,i1);
+obj.TP17method94(i1,i0,i2,i4);
+obj.TP17method95(i4,i3,i0,i1);
+obj.TP17method96(i1,i2,i3,i0);
+obj.TP17method97(i0,i4,i1,i3);
+obj.TP17method98(i3,i2,i4,i0);
+obj.TP17method99(i0,i2,i1,i3);
+obj.TP17method100(i3,i4,i0,i1);
+obj.TP17method101(i1,i3,i2,i4);
+obj.TP17method102(i4,i1,i0,i2);
+obj.TP17method103(i2,i1,i3,i0);
+obj.TP17method104(i0,i4,i1,i2);
+obj.TP17method105(i2,i3,i4,i1);
+obj.TP17method106(i1,i0,i2,i4);
+obj.TP17method107(i4,i3,i0,i1);
+obj.TP17method108(i1,i3,i2,i4);
+obj.TP17method109(i4,i1,i0,i2);
+obj.TP17method110(i2,i4,i3,i0);
+obj.TP17method111(i0,i2,i1,i3);
+obj.TP17method112(i3,i2,i4,i1);
+obj.TP17method113(i1,i0,i2,i4);
+obj.TP17method114(i4,i3,i0,i2);
+obj.TP17method115(i2,i1,i3,i0);
+obj.TP17method116(i0,i4,i1,i2);
+obj.TP17method117(i2,i4,i3,i0);
+obj.TP17method118(i0,i2,i1,i3);
+obj.TP17method119(i3,i2,i4,i0);
+}
+
+}
+}

@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP16 {
+
+
+public virtual INT TP16method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP16method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP16method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP16method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP16method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP16method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP16method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP16method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP16method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+
+public static void main(string[] args){
+TP16 obj = new TP16();
+obj.TP16method0((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method1((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method2((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method3((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method4((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method5((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method6((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method7((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method8((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method9((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method10((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method11((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method12((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method13((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method14((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method15((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method16((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method17((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method18((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method19((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method20((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method21((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method22((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method23((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method24((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method25((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method26((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method27((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method28((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method29((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method30((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method31((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method32((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method33((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method34((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method35((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method36((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method37((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method38((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method39((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method40((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method41((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method42((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method43((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method44((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method45((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method46((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method47((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method48((int)(3),(int)(3),(int)(3),(int)(3));
+obj.TP16method49((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method50((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method51((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method52((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method53((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method54((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method55((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method56((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method57((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method58((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method59((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method60((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method61((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method62((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method63((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method64((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method65((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method66((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method67((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method68((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method69((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method70((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method71((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method72((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method73((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method74((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method75((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method76((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method77((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method78((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method79((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method80((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method81((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method82((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method83((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method84((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method85((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method86((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method87((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method88((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method89((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method90((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method91((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method92((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method93((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method94((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method95((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method96((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method97((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method98((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method99((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method100((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method101((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method102((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method103((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method104((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method105((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method106((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method107((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method108((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method109((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method110((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method111((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method112((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method113((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method114((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method115((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method116((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method117((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method118((int)(3),(int)(3),(int)(3),(int)(3));
+TP16method119((int)(3),(int)(3),(int)(3),(int)(3));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP16 obj = new TP16();
+obj.TP16method0(i0,i2,i3,i4);
+obj.TP16method1(i4,i0,i2,i1);
+obj.TP16method2(i1,i3,i0,i4);
+obj.TP16method3(i4,i1,i0,i2);
+obj.TP16method4(i2,i4,i3,i0);
+obj.TP16method5(i0,i1,i2,i3);
+obj.TP16method6(i3,i0,i4,i1);
+obj.TP16method7(i1,i3,i2,i4);
+obj.TP16method8(i4,i3,i0,i2);
+obj.TP16method9(i2,i1,i3,i0);
+obj.TP16method10(i0,i4,i1,i3);
+obj.TP16method11(i3,i2,i4,i1);
+obj.TP16method12(i1,i0,i2,i3);
+obj.TP16method13(i3,i0,i4,i1);
+obj.TP16method14(i1,i3,i2,i4);
+obj.TP16method15(i4,i3,i0,i1);
+obj.TP16method16(i1,i0,i2,i4);
+obj.TP16method17(i4,i3,i0,i1);
+obj.TP16method18(i1,i3,i2,i4);
+obj.TP16method19(i4,i1,i0,i2);
+obj.TP16method20(i2,i1,i3,i4);
+obj.TP16method21(i4,i0,i2,i1);
+obj.TP16method22(i1,i3,i2,i4);
+obj.TP16method23(i4,i1,i0,i2);
+obj.TP16method24(i2,i4,i3,i0);
+obj.TP16method25(i0,i4,i1,i2);
+obj.TP16method26(i2,i3,i0,i4);
+obj.TP16method27(i4,i1,i0,i2);
+obj.TP16method28(i2,i4,i3,i0);
+obj.TP16method29(i0,i2,i1,i3);
+obj.TP16method30(i3,i2,i4,i0);
+obj.TP16method31(i0,i1,i3,i2);
+obj.TP16method32(i2,i3,i0,i1);
+obj.TP16method33(i1,i3,i0,i4);
+obj.TP16method34(i4,i1,i0,i2);
+obj.TP16method35(i2,i3,i4,i1);
+obj.TP16method36(i1,i0,i2,i3);
+obj.TP16method37(i3,i0,i4,i1);
+obj.TP16method38(i1,i3,i2,i4);
+obj.TP16method39(i4,i3,i0,i1);
+obj.TP16method40(i1,i2,i4,i3);
+obj.TP16method41(i3,i0,i4,i1);
+obj.TP16method42(i1,i3,i2,i4);
+obj.TP16method43(i4,i1,i0,i2);
+obj.TP16method44(i2,i1,i3,i4);
+obj.TP16method45(i4,i0,i2,i1);
+obj.TP16method46(i1,i3,i2,i4);
+obj.TP16method47(i4,i1,i0,i2);
+obj.TP16method48(i2,i4,i0,i1);
+obj.TP16method49(i1,i3,i2,i4);
+TP16method50(i4,i0,i1,i2);
+TP16method51(i2,i4,i3,i0);
+TP16method52(i0,i2,i1,i3);
+TP16method53(i3,i2,i4,i1);
+TP16method54(i1,i0,i2,i3);
+TP16method55(i3,i4,i0,i2);
+TP16method56(i2,i1,i3,i0);
+TP16method57(i0,i4,i1,i2);
+TP16method58(i2,i4,i3,i0);
+TP16method59(i0,i1,i2,i3);
+TP16method60(i3,i0,i4,i1);
+TP16method61(i1,i3,i2,i4);
+TP16method62(i4,i3,i0,i2);
+TP16method63(i2,i1,i3,i4);
+TP16method64(i4,i0,i1,i3);
+TP16method65(i3,i2,i4,i1);
+TP16method66(i1,i0,i2,i3);
+TP16method67(i3,i0,i4,i1);
+TP16method68(i1,i2,i3,i4);
+TP16method69(i4,i1,i0,i2);
+TP16method70(i2,i4,i3,i0);
+TP16method71(i0,i4,i1,i3);
+TP16method72(i3,i2,i4,i0);
+TP16method73(i0,i1,i2,i4);
+TP16method74(i4,i3,i0,i2);
+TP16method75(i2,i1,i3,i4);
+TP16method76(i4,i1,i0,i2);
+TP16method77(i2,i3,i4,i0);
+TP16method78(i0,i2,i1,i3);
+TP16method79(i3,i0,i4,i1);
+TP16method80(i1,i0,i2,i4);
+TP16method81(i4,i3,i0,i2);
+TP16method82(i2,i1,i3,i0);
+TP16method83(i0,i4,i1,i3);
+TP16method84(i3,i2,i4,i0);
+TP16method85(i0,i2,i1,i3);
+TP16method86(i3,i0,i4,i1);
+TP16method87(i1,i0,i2,i3);
+TP16method88(i3,i2,i4,i1);
+TP16method89(i1,i0,i2,i3);
+TP16method90(i3,i0,i4,i1);
+TP16method91(i1,i3,i2,i4);
+TP16method92(i4,i3,i0,i1);
+TP16method93(i1,i2,i4,i3);
+TP16method94(i3,i0,i4,i1);
+TP16method95(i1,i3,i2,i4);
+TP16method96(i4,i1,i0,i2);
+TP16method97(i2,i1,i3,i4);
+TP16method98(i4,i0,i2,i1);
+TP16method99(i1,i3,i2,i4);
+TP16method100(i4,i1,i0,i2);
+TP16method101(i2,i4,i3,i0);
+TP16method102(i0,i4,i1,i2);
+TP16method103(i2,i3,i0,i4);
+TP16method104(i4,i1,i0,i2);
+TP16method105(i2,i4,i3,i0);
+TP16method106(i0,i2,i1,i3);
+TP16method107(i3,i2,i4,i0);
+TP16method108(i0,i1,i3,i2);
+TP16method109(i2,i4,i3,i0);
+TP16method110(i0,i2,i1,i3);
+TP16method111(i3,i0,i4,i1);
+TP16method112(i1,i0,i2,i3);
+TP16method113(i3,i4,i1,i0);
+TP16method114(i0,i2,i1,i3);
+TP16method115(i3,i0,i4,i1);
+TP16method116(i1,i3,i2,i4);
+TP16method117(i4,i3,i0,i1);
+TP16method118(i1,i2,i4,i3);
+TP16method119(i3,i0,i4,i1);
+}
+
+}
+}

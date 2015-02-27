@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP8 {
+
+
+public virtual INT TP8method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP8method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP8method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP8method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP8method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP8method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP8method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP8method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP8method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP8method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP8method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP8method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+
+public static void main(string[] args){
+TP8 obj = new TP8();
+obj.TP8method0((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method1((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method2((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method3((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method4((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method5((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method6((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method7((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method8((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method9((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method10((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method11((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method12((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method13((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method14((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method15((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method16((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method17((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method18((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method19((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method20((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method21((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method22((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method23((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method24((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method25((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method26((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method27((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method28((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method29((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method30((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method31((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method32((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method33((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method34((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method35((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method36((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method37((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method38((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method39((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method40((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method41((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method42((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method43((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method44((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method45((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method46((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method47((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method48((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method49((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method50((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method51((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method52((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method53((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method54((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method55((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method56((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method57((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method58((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method59((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method60((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method61((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method62((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method63((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method64((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method65((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method66((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method67((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method68((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method69((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method70((int)(39),(int)(39),(int)(39),(int)(39));
+TP8method71((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method72((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method73((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method74((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method75((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method76((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method77((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method78((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method79((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method80((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method81((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method82((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method83((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method84((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method85((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method86((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method87((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method88((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method89((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method90((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method91((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method92((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method93((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method94((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method95((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method96((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method97((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method98((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method99((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method100((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method101((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method102((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method103((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method104((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method105((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method106((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method107((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method108((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method109((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method110((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method111((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method112((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method113((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method114((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method115((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method116((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method117((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method118((int)(39),(int)(39),(int)(39),(int)(39));
+obj.TP8method119((int)(39),(int)(39),(int)(39),(int)(39));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP8 obj = new TP8();
+obj.TP8method0(i3,i4,i0,i2);
+obj.TP8method1(i2,i1,i3,i0);
+obj.TP8method2(i0,i4,i1,i2);
+obj.TP8method3(i2,i4,i3,i0);
+obj.TP8method4(i0,i2,i1,i3);
+obj.TP8method5(i3,i2,i0,i4);
+obj.TP8method6(i4,i1,i3,i2);
+obj.TP8method7(i2,i4,i3,i0);
+obj.TP8method8(i0,i2,i1,i3);
+obj.TP8method9(i3,i0,i4,i1);
+obj.TP8method10(i1,i0,i2,i3);
+obj.TP8method11(i3,i2,i4,i1);
+TP8method12(i1,i0,i2,i3);
+TP8method13(i3,i0,i4,i1);
+TP8method14(i1,i3,i2,i4);
+TP8method15(i4,i3,i0,i1);
+TP8method16(i1,i2,i4,i3);
+TP8method17(i3,i0,i4,i1);
+TP8method18(i1,i3,i2,i4);
+TP8method19(i4,i1,i0,i2);
+TP8method20(i2,i1,i3,i4);
+TP8method21(i4,i0,i2,i1);
+TP8method22(i1,i3,i2,i4);
+TP8method23(i4,i1,i0,i2);
+TP8method24(i2,i4,i3,i0);
+TP8method25(i0,i4,i1,i2);
+TP8method26(i2,i3,i0,i4);
+TP8method27(i4,i1,i0,i2);
+TP8method28(i2,i4,i3,i0);
+TP8method29(i0,i2,i1,i3);
+TP8method30(i3,i2,i4,i0);
+TP8method31(i0,i1,i3,i2);
+TP8method32(i2,i4,i3,i0);
+TP8method33(i0,i2,i1,i3);
+TP8method34(i3,i0,i4,i1);
+TP8method35(i1,i0,i2,i3);
+TP8method36(i3,i4,i1,i0);
+TP8method37(i0,i2,i1,i3);
+TP8method38(i3,i0,i4,i1);
+TP8method39(i1,i3,i2,i4);
+TP8method40(i4,i3,i0,i1);
+TP8method41(i1,i2,i4,i3);
+TP8method42(i3,i0,i4,i1);
+TP8method43(i1,i3,i2,i4);
+TP8method44(i4,i1,i0,i2);
+TP8method45(i2,i1,i3,i0);
+TP8method46(i0,i4,i1,i2);
+TP8method47(i2,i1,i3,i4);
+TP8method48(i4,i1,i0,i2);
+TP8method49(i2,i4,i3,i0);
+TP8method50(i0,i4,i1,i3);
+TP8method51(i3,i2,i4,i0);
+TP8method52(i0,i1,i2,i4);
+TP8method53(i4,i3,i0,i2);
+TP8method54(i2,i1,i3,i4);
+TP8method55(i4,i1,i0,i2);
+TP8method56(i2,i3,i4,i0);
+TP8method57(i0,i2,i1,i3);
+TP8method58(i3,i0,i4,i1);
+TP8method59(i1,i0,i2,i4);
+TP8method60(i4,i3,i0,i1);
+TP8method61(i1,i2,i3,i0);
+TP8method62(i0,i4,i1,i3);
+TP8method63(i3,i2,i4,i0);
+TP8method64(i0,i2,i1,i3);
+TP8method65(i3,i4,i0,i1);
+TP8method66(i1,i3,i2,i4);
+TP8method67(i4,i1,i0,i2);
+TP8method68(i2,i1,i3,i0);
+TP8method69(i0,i1,i2,i3);
+TP8method70(i3,i4,i1,i0);
+TP8method71(i0,i2,i4,i3);
+obj.TP8method72(i3,i0,i4,i1);
+obj.TP8method73(i1,i4,i0,i2);
+obj.TP8method74(i2,i4,i1,i3);
+obj.TP8method75(i3,i2,i4,i1);
+obj.TP8method76(i1,i0,i2,i4);
+obj.TP8method77(i4,i3,i0,i2);
+obj.TP8method78(i2,i1,i3,i0);
+obj.TP8method79(i0,i4,i1,i2);
+obj.TP8method80(i2,i4,i3,i0);
+obj.TP8method81(i0,i2,i1,i3);
+obj.TP8method82(i3,i2,i4,i0);
+obj.TP8method83(i0,i4,i1,i3);
+obj.TP8method84(i3,i2,i4,i0);
+obj.TP8method85(i0,i2,i1,i3);
+obj.TP8method86(i3,i0,i4,i1);
+obj.TP8method87(i1,i0,i2,i3);
+obj.TP8method88(i3,i4,i1,i0);
+obj.TP8method89(i0,i2,i1,i3);
+obj.TP8method90(i3,i0,i4,i1);
+obj.TP8method91(i1,i3,i2,i4);
+obj.TP8method92(i4,i3,i0,i1);
+obj.TP8method93(i1,i2,i4,i0);
+obj.TP8method94(i0,i4,i1,i3);
+obj.TP8method95(i3,i2,i4,i1);
+obj.TP8method96(i1,i0,i2,i3);
+obj.TP8method97(i3,i4,i0,i2);
+obj.TP8method98(i2,i1,i3,i4);
+obj.TP8method99(i4,i1,i0,i2);
+obj.TP8method100(i2,i4,i3,i0);
+obj.TP8method101(i0,i4,i1,i2);
+obj.TP8method102(i2,i3,i0,i4);
+obj.TP8method103(i4,i1,i0,i2);
+obj.TP8method104(i2,i4,i3,i0);
+obj.TP8method105(i0,i2,i1,i3);
+obj.TP8method106(i3,i2,i4,i0);
+obj.TP8method107(i0,i1,i3,i2);
+obj.TP8method108(i2,i4,i3,i0);
+obj.TP8method109(i0,i2,i1,i3);
+obj.TP8method110(i3,i0,i4,i1);
+obj.TP8method111(i1,i0,i2,i3);
+obj.TP8method112(i3,i4,i1,i0);
+obj.TP8method113(i0,i2,i1,i3);
+obj.TP8method114(i3,i0,i4,i1);
+obj.TP8method115(i1,i3,i2,i4);
+obj.TP8method116(i4,i3,i0,i2);
+obj.TP8method117(i2,i1,i4,i3);
+obj.TP8method118(i3,i0,i4,i1);
+obj.TP8method119(i1,i3,i2,i4);
+}
+
+}
+}

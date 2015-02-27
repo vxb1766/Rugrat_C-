@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP10 {
+
+
+public virtual static INT TP10method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP10method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP10method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual INT TP10method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+
+public static void main(string[] args){
+TP10 obj = new TP10();
+TP10method0((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method1((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method2((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method3((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method4((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method5((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method6((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method7((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method8((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method9((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method10((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method11((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method12((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method13((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method14((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method15((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method16((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method17((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method18((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method19((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method20((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method21((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method22((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method23((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method24((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method25((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method26((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method27((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method28((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method29((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method30((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method31((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method32((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method33((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method34((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method35((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method36((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method37((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method38((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method39((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method40((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method41((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method42((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method43((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method44((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method45((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method46((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method47((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method48((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method49((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method50((int)(33),(int)(33),(int)(33),(int)(33));
+TP10method51((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method52((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method53((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method54((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method55((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method56((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method57((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method58((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method59((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method60((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method61((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method62((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method63((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method64((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method65((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method66((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method67((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method68((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method69((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method70((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method71((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method72((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method73((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method74((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method75((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method76((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method77((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method78((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method79((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method80((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method81((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method82((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method83((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method84((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method85((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method86((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method87((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method88((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method89((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method90((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method91((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method92((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method93((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method94((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method95((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method96((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method97((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method98((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method99((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method100((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method101((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method102((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method103((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method104((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method105((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method106((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method107((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method108((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method109((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method110((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method111((int)(33),(int)(33),(int)(33),(int)(33));
+obj.TP10method112((int)(33),(int)(33),(int)(33),(int)(1));
+obj.TP10method113((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method114((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method115((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method116((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method117((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method118((int)(1),(int)(1),(int)(1),(int)(1));
+obj.TP10method119((int)(1),(int)(1),(int)(1),(int)(1));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP10 obj = new TP10();
+TP10method0(i0,i4,i1,i2);
+TP10method1(i2,i3,i4,i1);
+TP10method2(i1,i0,i2,i3);
+TP10method3(i3,i0,i4,i1);
+TP10method4(i1,i3,i2,i4);
+TP10method5(i4,i3,i0,i1);
+TP10method6(i1,i2,i4,i3);
+TP10method7(i3,i0,i4,i1);
+TP10method8(i1,i3,i2,i4);
+TP10method9(i4,i1,i0,i2);
+TP10method10(i2,i1,i3,i4);
+TP10method11(i4,i0,i2,i1);
+TP10method12(i1,i3,i2,i4);
+TP10method13(i4,i1,i0,i2);
+TP10method14(i2,i4,i3,i0);
+TP10method15(i0,i4,i1,i2);
+TP10method16(i2,i3,i0,i4);
+TP10method17(i4,i1,i0,i2);
+TP10method18(i2,i4,i3,i0);
+TP10method19(i0,i2,i1,i3);
+TP10method20(i3,i2,i4,i0);
+TP10method21(i0,i1,i3,i2);
+TP10method22(i2,i4,i3,i0);
+TP10method23(i0,i2,i1,i3);
+TP10method24(i3,i0,i4,i1);
+TP10method25(i1,i0,i2,i4);
+TP10method26(i4,i3,i0,i1);
+TP10method27(i1,i0,i2,i3);
+TP10method28(i3,i0,i4,i1);
+TP10method29(i1,i3,i2,i4);
+TP10method30(i4,i3,i0,i2);
+TP10method31(i2,i1,i3,i4);
+TP10method32(i4,i0,i1,i3);
+TP10method33(i3,i2,i4,i1);
+TP10method34(i1,i0,i2,i3);
+TP10method35(i3,i0,i4,i1);
+TP10method36(i1,i2,i3,i4);
+TP10method37(i4,i1,i0,i2);
+TP10method38(i2,i4,i3,i0);
+TP10method39(i0,i4,i1,i3);
+TP10method40(i3,i2,i4,i0);
+TP10method41(i0,i1,i2,i4);
+TP10method42(i4,i3,i0,i2);
+TP10method43(i2,i1,i3,i4);
+TP10method44(i4,i1,i0,i2);
+TP10method45(i2,i3,i4,i0);
+TP10method46(i0,i2,i1,i3);
+TP10method47(i3,i0,i4,i1);
+TP10method48(i1,i0,i2,i4);
+TP10method49(i4,i3,i0,i1);
+TP10method50(i1,i2,i3,i0);
+TP10method51(i0,i4,i1,i3);
+obj.TP10method52(i3,i2,i4,i0);
+obj.TP10method53(i0,i2,i1,i3);
+obj.TP10method54(i3,i4,i0,i1);
+obj.TP10method55(i1,i3,i2,i4);
+obj.TP10method56(i4,i1,i0,i2);
+obj.TP10method57(i2,i1,i3,i0);
+obj.TP10method58(i0,i4,i1,i3);
+obj.TP10method59(i3,i2,i4,i1);
+obj.TP10method60(i1,i0,i2,i4);
+obj.TP10method61(i4,i3,i0,i1);
+obj.TP10method62(i1,i3,i2,i4);
+obj.TP10method63(i4,i1,i0,i2);
+obj.TP10method64(i2,i1,i3,i4);
+obj.TP10method65(i4,i3,i0,i2);
+obj.TP10method66(i2,i1,i3,i4);
+obj.TP10method67(i4,i1,i0,i2);
+obj.TP10method68(i2,i4,i3,i0);
+obj.TP10method69(i0,i4,i1,i2);
+obj.TP10method70(i2,i3,i0,i4);
+obj.TP10method71(i4,i1,i0,i2);
+obj.TP10method72(i2,i4,i3,i0);
+obj.TP10method73(i0,i2,i3,i4);
+obj.TP10method74(i4,i0,i1,i3);
+obj.TP10method75(i3,i2,i4,i0);
+obj.TP10method76(i0,i2,i1,i3);
+obj.TP10method77(i3,i0,i4,i1);
+obj.TP10method78(i1,i0,i2,i3);
+obj.TP10method79(i3,i4,i1,i0);
+obj.TP10method80(i0,i2,i1,i3);
+obj.TP10method81(i3,i0,i4,i1);
+obj.TP10method82(i1,i3,i2,i4);
+obj.TP10method83(i4,i3,i0,i1);
+obj.TP10method84(i1,i2,i4,i3);
+obj.TP10method85(i3,i0,i4,i1);
+obj.TP10method86(i1,i3,i2,i4);
+obj.TP10method87(i4,i1,i0,i2);
+obj.TP10method88(i2,i1,i3,i4);
+obj.TP10method89(i4,i0,i2,i1);
+obj.TP10method90(i1,i3,i2,i4);
+obj.TP10method91(i4,i1,i0,i2);
+obj.TP10method92(i2,i4,i3,i0);
+obj.TP10method93(i0,i4,i1,i2);
+obj.TP10method94(i2,i3,i0,i4);
+obj.TP10method95(i4,i1,i0,i2);
+obj.TP10method96(i2,i4,i3,i0);
+obj.TP10method97(i0,i2,i1,i3);
+obj.TP10method98(i3,i2,i4,i1);
+obj.TP10method99(i1,i0,i3,i2);
+obj.TP10method100(i2,i4,i3,i0);
+obj.TP10method101(i0,i2,i1,i3);
+obj.TP10method102(i3,i0,i4,i1);
+obj.TP10method103(i1,i0,i2,i4);
+obj.TP10method104(i4,i3,i0,i1);
+obj.TP10method105(i1,i2,i3,i0);
+obj.TP10method106(i0,i4,i1,i3);
+obj.TP10method107(i3,i2,i4,i0);
+obj.TP10method108(i0,i2,i1,i3);
+obj.TP10method109(i3,i4,i0,i1);
+obj.TP10method110(i1,i3,i2,i4);
+obj.TP10method111(i4,i1,i0,i2);
+obj.TP10method112(i2,i1,i3,i0);
+obj.TP10method113(i0,i4,i1,i2);
+obj.TP10method114(i2,i3,i4,i1);
+obj.TP10method115(i1,i0,i2,i4);
+obj.TP10method116(i4,i3,i0,i1);
+obj.TP10method117(i1,i3,i2,i4);
+obj.TP10method118(i4,i0,i1,i2);
+obj.TP10method119(i2,i4,i3,i0);
+}
+
+}
+}

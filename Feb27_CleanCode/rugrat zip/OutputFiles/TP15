@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP15 {
+
+
+public virtual static INT TP15method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual static INT TP15method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual static INT TP15method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+public virtual INT TP15method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var0;
+
+}
+
+
+public static void main(string[] args){
+TP15 obj = new TP15();
+TP15method0((int)(3),(int)(3),(int)(3),(int)(3));
+TP15method1((int)(3),(int)(3),(int)(3),(int)(3));
+TP15method2((int)(3),(int)(3),(int)(3),(int)(3));
+TP15method3((int)(3),(int)(3),(int)(3),(int)(3));
+TP15method4((int)(3),(int)(3),(int)(3),(int)(3));
+TP15method5((int)(3),(int)(3),(int)(3),(int)(20));
+TP15method6((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method7((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method8((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method9((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method10((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method11((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method12((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method13((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method14((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method15((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method16((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method17((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method18((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method19((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method20((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method21((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method22((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method23((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method24((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method25((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method26((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method27((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method28((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method29((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method30((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method31((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method32((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method33((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method34((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method35((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method36((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method37((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method38((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method39((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method40((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method41((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method42((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method43((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method44((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method45((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method46((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method47((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method48((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method49((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method50((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method51((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method52((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method53((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method54((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method55((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method56((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method57((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method58((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method59((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method60((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method61((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method62((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method63((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method64((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method65((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method66((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method67((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method68((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method69((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method70((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method71((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method72((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method73((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method74((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method75((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method76((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method77((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method78((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method79((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method80((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method81((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method82((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method83((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method84((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method85((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method86((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method87((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method88((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method89((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method90((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method91((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method92((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method93((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method94((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method95((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method96((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method97((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method98((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method99((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method100((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method101((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method102((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method103((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method104((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method105((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method106((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method107((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method108((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method109((int)(20),(int)(20),(int)(20),(int)(20));
+TP15method110((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method111((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method112((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method113((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method114((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method115((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method116((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method117((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method118((int)(20),(int)(20),(int)(20),(int)(20));
+obj.TP15method119((int)(20),(int)(20),(int)(20),(int)(20));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP15 obj = new TP15();
+TP15method0(i2,i3,i4,i1);
+TP15method1(i1,i0,i2,i3);
+TP15method2(i3,i0,i4,i1);
+TP15method3(i1,i3,i2,i4);
+TP15method4(i4,i3,i0,i1);
+TP15method5(i1,i2,i4,i3);
+TP15method6(i3,i0,i4,i1);
+TP15method7(i1,i3,i2,i4);
+TP15method8(i4,i1,i0,i2);
+TP15method9(i2,i1,i3,i4);
+TP15method10(i4,i0,i2,i1);
+TP15method11(i1,i3,i2,i4);
+TP15method12(i4,i1,i0,i2);
+TP15method13(i2,i4,i3,i0);
+TP15method14(i0,i4,i1,i2);
+TP15method15(i2,i3,i0,i4);
+TP15method16(i4,i1,i0,i2);
+TP15method17(i2,i4,i3,i0);
+TP15method18(i0,i2,i1,i3);
+TP15method19(i3,i2,i4,i1);
+TP15method20(i1,i0,i3,i2);
+TP15method21(i2,i4,i3,i0);
+TP15method22(i0,i2,i1,i3);
+TP15method23(i3,i0,i4,i1);
+TP15method24(i1,i0,i2,i4);
+TP15method25(i4,i3,i0,i1);
+TP15method26(i1,i0,i2,i3);
+TP15method27(i3,i0,i4,i1);
+TP15method28(i1,i3,i2,i4);
+TP15method29(i4,i3,i0,i2);
+TP15method30(i2,i1,i3,i4);
+TP15method31(i4,i0,i1,i3);
+TP15method32(i3,i2,i4,i1);
+TP15method33(i1,i0,i2,i3);
+TP15method34(i3,i0,i4,i1);
+TP15method35(i1,i2,i3,i4);
+TP15method36(i4,i1,i0,i2);
+TP15method37(i2,i4,i3,i0);
+TP15method38(i0,i4,i1,i3);
+TP15method39(i3,i2,i4,i0);
+TP15method40(i0,i1,i2,i4);
+TP15method41(i4,i3,i0,i2);
+TP15method42(i2,i1,i3,i4);
+TP15method43(i4,i1,i0,i2);
+TP15method44(i2,i3,i4,i0);
+TP15method45(i0,i2,i1,i3);
+TP15method46(i3,i0,i4,i1);
+TP15method47(i1,i0,i2,i4);
+TP15method48(i4,i3,i0,i1);
+TP15method49(i1,i2,i3,i0);
+TP15method50(i0,i4,i1,i3);
+TP15method51(i3,i2,i4,i0);
+TP15method52(i0,i2,i1,i3);
+TP15method53(i3,i0,i4,i1);
+TP15method54(i1,i3,i2,i4);
+TP15method55(i4,i1,i0,i2);
+TP15method56(i2,i1,i3,i0);
+TP15method57(i0,i4,i1,i3);
+TP15method58(i3,i2,i4,i1);
+TP15method59(i1,i0,i2,i4);
+TP15method60(i4,i3,i0,i1);
+TP15method61(i1,i3,i2,i4);
+TP15method62(i4,i1,i0,i2);
+TP15method63(i2,i1,i3,i4);
+TP15method64(i4,i3,i0,i2);
+TP15method65(i2,i1,i3,i4);
+TP15method66(i4,i1,i0,i2);
+TP15method67(i2,i4,i3,i0);
+TP15method68(i0,i4,i1,i2);
+TP15method69(i2,i3,i0,i4);
+TP15method70(i4,i1,i0,i2);
+TP15method71(i2,i4,i3,i0);
+TP15method72(i0,i2,i1,i3);
+TP15method73(i3,i2,i4,i0);
+TP15method74(i0,i1,i3,i2);
+TP15method75(i2,i4,i3,i0);
+TP15method76(i0,i2,i1,i3);
+TP15method77(i3,i0,i4,i1);
+TP15method78(i1,i0,i2,i3);
+TP15method79(i3,i4,i1,i0);
+TP15method80(i0,i2,i1,i3);
+TP15method81(i3,i0,i4,i1);
+TP15method82(i1,i3,i2,i4);
+TP15method83(i4,i3,i0,i1);
+TP15method84(i1,i2,i4,i3);
+TP15method85(i3,i0,i4,i1);
+TP15method86(i1,i3,i2,i4);
+TP15method87(i4,i1,i0,i2);
+TP15method88(i2,i1,i3,i4);
+TP15method89(i4,i0,i2,i1);
+TP15method90(i1,i3,i2,i4);
+TP15method91(i4,i1,i0,i2);
+TP15method92(i2,i4,i3,i0);
+TP15method93(i0,i4,i1,i3);
+TP15method94(i3,i2,i0,i4);
+TP15method95(i4,i1,i0,i2);
+TP15method96(i2,i4,i3,i0);
+TP15method97(i0,i2,i1,i3);
+TP15method98(i3,i2,i4,i1);
+TP15method99(i1,i0,i2,i3);
+TP15method100(i3,i2,i4,i0);
+TP15method101(i0,i2,i1,i3);
+TP15method102(i3,i0,i4,i1);
+TP15method103(i1,i0,i2,i4);
+TP15method104(i4,i3,i0,i1);
+TP15method105(i1,i2,i3,i0);
+TP15method106(i0,i4,i1,i3);
+TP15method107(i3,i2,i4,i0);
+TP15method108(i0,i2,i1,i3);
+TP15method109(i3,i4,i0,i1);
+TP15method110(i1,i3,i2,i4);
+obj.TP15method111(i4,i1,i0,i2);
+obj.TP15method112(i2,i1,i3,i0);
+obj.TP15method113(i0,i4,i1,i2);
+obj.TP15method114(i2,i3,i4,i1);
+obj.TP15method115(i1,i0,i2,i4);
+obj.TP15method116(i4,i3,i0,i1);
+obj.TP15method117(i1,i3,i2,i4);
+obj.TP15method118(i4,i0,i1,i2);
+obj.TP15method119(i2,i4,i3,i0);
+}
+
+}
+}

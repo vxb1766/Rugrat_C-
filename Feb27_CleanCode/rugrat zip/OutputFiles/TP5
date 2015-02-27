@@ -1,0 +1,860 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP5 {
+
+
+public virtual static INT TP5method0(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method1(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method2(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method3(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method4(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method5(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method6(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method7(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method8(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method9(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method10(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method11(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method12(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method13(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method14(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method15(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method16(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method17(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method18(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var2;
+
+}
+
+public virtual static INT TP5method19(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method20(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method21(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method22(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method23(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method24(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method25(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method26(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method27(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method28(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method29(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method30(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method31(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method32(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method33(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method34(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method35(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method36(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual static INT TP5method37(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method38(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method39(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method40(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method41(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method42(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method43(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method44(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method45(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method46(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method47(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method48(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method49(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method50(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method51(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method52(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method53(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method54(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method55(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method56(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method57(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method58(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method59(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method60(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method61(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method62(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method63(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method64(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method65(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method66(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method67(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method68(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method69(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method70(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method71(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method72(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method73(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method74(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method75(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method76(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method77(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method78(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method79(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method80(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method81(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method82(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method83(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method84(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method85(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method86(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method87(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method88(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method89(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method90(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var1;
+
+}
+
+public virtual INT TP5method91(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method92(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method93(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method94(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method95(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method96(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method97(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method98(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method99(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method100(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method101(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method102(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method103(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method104(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method105(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method106(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method107(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method108(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method109(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method110(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method111(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method112(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method113(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method114(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method115(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method116(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method117(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method118(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+public virtual INT TP5method119(INT var0, INT var1, INT var2, INT var3){
+ return (INT)var3;
+
+}
+
+
+public static void main(string[] args){
+TP5 obj = new TP5();
+TP5method0((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method1((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method2((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method3((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method4((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method5((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method6((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method7((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method8((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method9((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method10((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method11((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method12((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method13((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method14((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method15((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method16((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method17((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method18((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method19((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method20((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method21((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method22((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method23((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method24((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method25((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method26((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method27((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method28((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method29((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method30((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method31((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method32((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method33((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method34((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method35((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method36((int)(40),(int)(40),(int)(40),(int)(40));
+TP5method37((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method38((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method39((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method40((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method41((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method42((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method43((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method44((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method45((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method46((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method47((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method48((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method49((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method50((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method51((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method52((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method53((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method54((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method55((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method56((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method57((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method58((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method59((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method60((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method61((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method62((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method63((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method64((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method65((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method66((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method67((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method68((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method69((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method70((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method71((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method72((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method73((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method74((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method75((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method76((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method77((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method78((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method79((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method80((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method81((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method82((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method83((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method84((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method85((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method86((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method87((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method88((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method89((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method90((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method91((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method92((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method93((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method94((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method95((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method96((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method97((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method98((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method99((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method100((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method101((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method102((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method103((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method104((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method105((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method106((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method107((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method108((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method109((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method110((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method111((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method112((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method113((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method114((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method115((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method116((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method117((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method118((int)(40),(int)(40),(int)(40),(int)(40));
+obj.TP5method119((int)(40),(int)(40),(int)(40),(int)(40));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP5 obj = new TP5();
+TP5method0(i4,i0,i1,i3);
+TP5method1(i3,i2,i4,i0);
+TP5method2(i0,i2,i1,i3);
+TP5method3(i3,i0,i4,i1);
+TP5method4(i1,i0,i2,i3);
+TP5method5(i3,i4,i1,i0);
+TP5method6(i0,i2,i1,i3);
+TP5method7(i3,i0,i4,i1);
+TP5method8(i1,i3,i2,i4);
+TP5method9(i4,i3,i0,i1);
+TP5method10(i1,i2,i4,i3);
+TP5method11(i3,i0,i4,i1);
+TP5method12(i1,i3,i2,i4);
+TP5method13(i4,i1,i0,i2);
+TP5method14(i2,i1,i3,i4);
+TP5method15(i4,i0,i2,i1);
+TP5method16(i1,i3,i2,i4);
+TP5method17(i4,i1,i0,i2);
+TP5method18(i2,i4,i3,i0);
+TP5method19(i0,i4,i1,i2);
+TP5method20(i2,i3,i0,i4);
+TP5method21(i4,i1,i0,i2);
+TP5method22(i2,i4,i3,i0);
+TP5method23(i0,i2,i1,i3);
+TP5method24(i3,i2,i4,i0);
+TP5method25(i0,i1,i3,i2);
+TP5method26(i2,i4,i3,i0);
+TP5method27(i0,i2,i1,i3);
+TP5method28(i3,i0,i4,i1);
+TP5method29(i1,i0,i2,i4);
+TP5method30(i4,i3,i1,i0);
+TP5method31(i0,i2,i1,i3);
+TP5method32(i3,i0,i4,i1);
+TP5method33(i1,i3,i2,i4);
+TP5method34(i4,i3,i0,i2);
+TP5method35(i2,i1,i3,i4);
+TP5method36(i4,i3,i0,i1);
+TP5method37(i1,i3,i2,i4);
+obj.TP5method38(i4,i1,i0,i2);
+obj.TP5method39(i2,i1,i3,i0);
+obj.TP5method40(i0,i4,i1,i2);
+obj.TP5method41(i2,i3,i4,i1);
+obj.TP5method42(i1,i0,i2,i4);
+obj.TP5method43(i4,i3,i0,i1);
+obj.TP5method44(i1,i3,i2,i4);
+obj.TP5method45(i4,i0,i1,i2);
+obj.TP5method46(i2,i4,i3,i0);
+obj.TP5method47(i0,i2,i1,i3);
+obj.TP5method48(i3,i2,i4,i1);
+obj.TP5method49(i1,i0,i2,i3);
+obj.TP5method50(i3,i4,i0,i2);
+obj.TP5method51(i2,i1,i3,i0);
+obj.TP5method52(i0,i4,i1,i2);
+obj.TP5method53(i2,i4,i3,i0);
+obj.TP5method54(i0,i1,i2,i3);
+obj.TP5method55(i3,i0,i4,i1);
+obj.TP5method56(i1,i3,i2,i4);
+obj.TP5method57(i4,i3,i0,i2);
+obj.TP5method58(i2,i1,i3,i4);
+obj.TP5method59(i4,i0,i1,i2);
+obj.TP5method60(i2,i4,i1,i0);
+obj.TP5method61(i0,i2,i1,i3);
+obj.TP5method62(i3,i0,i4,i1);
+obj.TP5method63(i1,i3,i2,i4);
+obj.TP5method64(i4,i1,i0,i2);
+obj.TP5method65(i2,i4,i3,i0);
+obj.TP5method66(i0,i4,i1,i3);
+obj.TP5method67(i3,i2,i4,i1);
+obj.TP5method68(i1,i0,i2,i4);
+obj.TP5method69(i4,i3,i0,i2);
+obj.TP5method70(i2,i1,i3,i4);
+obj.TP5method71(i4,i1,i0,i2);
+obj.TP5method72(i2,i4,i3,i0);
+obj.TP5method73(i0,i4,i1,i2);
+obj.TP5method74(i2,i1,i3,i0);
+obj.TP5method75(i0,i4,i1,i2);
+obj.TP5method76(i2,i4,i3,i0);
+obj.TP5method77(i0,i2,i1,i3);
+obj.TP5method78(i3,i2,i4,i0);
+obj.TP5method79(i0,i1,i3,i2);
+obj.TP5method80(i2,i4,i3,i0);
+obj.TP5method81(i0,i2,i1,i3);
+obj.TP5method82(i3,i0,i4,i1);
+obj.TP5method83(i1,i0,i2,i3);
+obj.TP5method84(i3,i4,i1,i0);
+obj.TP5method85(i0,i2,i1,i3);
+obj.TP5method86(i3,i0,i4,i1);
+obj.TP5method87(i1,i3,i2,i4);
+obj.TP5method88(i4,i3,i0,i1);
+obj.TP5method89(i1,i2,i4,i3);
+obj.TP5method90(i3,i0,i4,i1);
+obj.TP5method91(i1,i3,i2,i4);
+obj.TP5method92(i4,i1,i0,i2);
+obj.TP5method93(i2,i1,i3,i4);
+obj.TP5method94(i4,i0,i2,i1);
+obj.TP5method95(i1,i3,i2,i4);
+obj.TP5method96(i4,i1,i0,i2);
+obj.TP5method97(i2,i4,i3,i0);
+obj.TP5method98(i0,i4,i1,i2);
+obj.TP5method99(i2,i3,i0,i4);
+obj.TP5method100(i4,i1,i0,i2);
+obj.TP5method101(i2,i4,i3,i0);
+obj.TP5method102(i0,i2,i1,i3);
+obj.TP5method103(i3,i2,i4,i1);
+obj.TP5method104(i1,i0,i3,i2);
+obj.TP5method105(i2,i4,i3,i0);
+obj.TP5method106(i0,i2,i1,i3);
+obj.TP5method107(i3,i0,i4,i1);
+obj.TP5method108(i1,i0,i2,i4);
+obj.TP5method109(i4,i3,i0,i1);
+obj.TP5method110(i1,i0,i2,i3);
+obj.TP5method111(i3,i0,i4,i1);
+obj.TP5method112(i1,i3,i2,i4);
+obj.TP5method113(i4,i3,i0,i2);
+obj.TP5method114(i2,i1,i3,i4);
+obj.TP5method115(i4,i0,i1,i3);
+obj.TP5method116(i3,i2,i4,i1);
+obj.TP5method117(i1,i0,i2,i3);
+obj.TP5method118(i3,i0,i4,i1);
+obj.TP5method119(i1,i2,i3,i4);
+}
+
+}
+}
