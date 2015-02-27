@@ -56,7 +56,6 @@
     <Compile Include="Field.cs" />
     <Compile Include="FieldBinOpField.cs" />
     <Compile Include="FieldGenerator.cs" />
-    <Compile Include="ForLoop.cs" />
     <Compile Include="IfElse.cs" />
     <Compile Include="IfStmtIfStmt.cs" />
     <Compile Include="InterfaceGenerator.cs" />
@@ -76,7 +75,6 @@
     <Compile Include="Start.cs" />
     <Compile Include="Statement.cs" />
     <Compile Include="StringHelperClass.cs" />
-    <Compile Include="Switch.cs" />
     <Compile Include="TreeOfSingleEntryGenerator.cs" />
     <Compile Include="Type.cs" />
     <Compile Include="Variable.cs" />

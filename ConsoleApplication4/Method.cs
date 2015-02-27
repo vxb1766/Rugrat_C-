@@ -12,10 +12,8 @@ namespace edu.uta.cse.proggen.classLevelElements
 	using VariableGenerator = edu.uta.cse.proggen.expressions.VariableGenerator;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
 	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
-	using ForLoop = edu.uta.cse.proggen.statements.ForLoop;
 	using IfElse = edu.uta.cse.proggen.statements.IfElse;
 	using IfStmtIfStmt = edu.uta.cse.proggen.statements.IfStmtIfStmt;
-	using Switch = edu.uta.cse.proggen.statements.Switch;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 	using CallType = edu.uta.cse.proggen.util.ProgGenUtil.CallType;
 
@@ -206,22 +204,9 @@ namespace edu.uta.cse.proggen.classLevelElements
 			while (loc < locPerMethod)
 			{
 					int option = 0;
-					if (ProgGenUtil.AllowedTypes.Contains("int"))
-					{
-						if (ProgGenUtil.getValidPrimitivesInScope(this).Contains(Primitives.INT))
-						{
-							option = rand.Next(4);
-						}
-						else
-						{
-							//can contain for-loops but not switch statements
-							option = rand.Next(3);
-						}
-					}
-					else
-					{
+                 
 						option = rand.Next(2);
-					}
+				
 
 					switch (option)
 					{
@@ -231,16 +216,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 						case 1:
 							output += (new IfElse(this, classList)).ToString();
 							break;
-							/*
-							 * cases after this not valid if INT is not 
-							 * a user-specified type.
-							 */
-						case 2:
-							output += (new ForLoop(this, classList)).ToString();
-							break;
-						case 3:
-							output += (new Switch(this, classList)).ToString();
-							break;
+						
 					}
 			}
 				this.methodBody = output;
