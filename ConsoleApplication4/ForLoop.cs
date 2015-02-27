@@ -50,7 +50,7 @@ namespace edu.uta.cse.proggen.statements
 				stmt = Statement.getRandomizedStatement(method, classList);
 
 				// We don't want method calls in the for loop, allow print statements that has 'method' keyword in it
-                while (stmt != null && stmt.ToString().Contains("method") && !stmt.ToString().Contains("System.out.println"))
+                while (stmt != null && stmt.ToString().Contains("method") && !stmt.ToString().Contains("Console.WriteLine"))
 				{
 					stmt = Statement.getRandomizedStatement(method, classList);
 				}

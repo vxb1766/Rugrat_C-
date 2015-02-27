@@ -43,10 +43,15 @@ namespace edu.uta.cse.proggen.packageLevelElements
        
         //Veena : milliseconds introduced coz date time helper is causing issue.
         static long milliseconds = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
+<<<<<<< HEAD
         //private static Int64 randInput = Convert.ToInt16(9999);
         //private Random rand = new Random(randInput);
         private Random rand = new Random();
         
+=======
+        private static Int32 randInput = Convert.ToInt32(2147483647);
+        private Random rand = new Random(randInput);
+>>>>>>> origin/master
 
 		private HashSet<Field> usedFields = new HashSet<Field>();
 		private List<Field> fields = new List<Field>();
@@ -155,14 +160,16 @@ namespace edu.uta.cse.proggen.packageLevelElements
 				preGenerateForMethodSignature(classList, preGeneratedClasses);
 			}
 
+            //append import statements
+            //if (ProgGenUtil.useQueries)
+            //{
+            //    appendImportStatements();
+            //}
+
 			// append package name
 			appendPackageName();
 
-			//append import statements
-			if (ProgGenUtil.useQueries)
-			{
-				appendImportStatements();
-			}
+			
 
 			Console.WriteLine("appending classname...");
 			// append class name
@@ -195,9 +202,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		}
 
 		private void appendImportStatements()
-		{
-			program += "import java.sql.ResultSet;\n";
-			program += "import java.util.Random;\n\n\n";
+		{   //not needed for C#
+			//program += "import java.sql.ResultSet;\n";
+			//program += "import java.util.Random;\n\n\n";
 		}
 
 		private void appendInjectedContents()
@@ -417,7 +424,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private void generateMain()
 		{
-			program += "\npublic static void main(String args[]){\n";
+			program += "\npublic static void main(string[] args){\n";
 			program += this.fileName + " obj = new " + this.fileName + "();\n";
 			foreach (Method method in this.methodList)
 			{
@@ -547,6 +554,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		{
 			// closing brace of the class
 			program += "\n}";
+            //closing brace of namespace
+            program += "\n}";
 		}
 
 		private MethodSignature overRiddenMethod(List<ClassGenerator> classList, int loc)
@@ -661,7 +670,12 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		private void appendPackageName()
 		{
-			program += "package com.accenture.lab.carfast.test;\n\n\n";
+			//program += "package com.accenture.lab.carfast.test;\n\n\n";
+            //Srujana: using System import necessary for all C# programs
+            program += "using System;\n\n\n";
+            //Srujana: C# packages are called namespaces
+            program += "namespace com.accenture.lab.carfast.test{\n\n\n";
+
 		}
 
 		private void generateClassFields(List<ClassGenerator> classList)

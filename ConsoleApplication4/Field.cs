@@ -167,12 +167,12 @@ namespace edu.uta.cse.proggen.classLevelElements
     
 				if (!isArray)
 				{
-					str += type.ToString() + " " + name;
+					str += type.getType().ToString() + " " + name;
 				}
 				else
 				{
 					this.arraySize = ProgGenUtil.RandomArraySize;
-					str += type.ToString() + "[] " + name + "= new " + type.ToString() + "[" + this.arraySize + "]";
+                    str += type.getType().ToString() + "[] " + name + "= new " + type.getType().ToString() + "[" + this.arraySize + "]";
 				}
     
 				return str;
