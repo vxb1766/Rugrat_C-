@@ -1,0 +1,142 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP0 {
+
+
+public virtual INT TP0method0(INT var0, INT var1, INT var2, INT var3){
+ if( ((var2-(int)(28))>=(var1+(int)(20)))){
+if( ((var1+(int)(20))>=(var1+(int)(38)))){
+Console.WriteLine("TP0 - TP0method0- LineInMethod: 4");
+}
+}
+return (INT)var3;
+
+}
+
+public virtual static INT TP0method1(INT var0, INT var1, INT var2, INT var3){
+ for(int i = 0; i < 0; i++){
+ Console.WriteLine("TP0 - TP0method1- LineInMethod: 2");
+}
+return (INT)var2;
+
+}
+
+public virtual static INT TP0method2(INT var0, INT var1, INT var2, INT var3){
+ switch((var2-(int)(30))){
+case 0:
+Console.WriteLine("TP0 - TP0method2- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP0 - TP0method2- LineInMethod: 8");
+ break;
+case 2:
+Console.WriteLine("TP0 - TP0method2- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP0 - TP0method2- LineInMethod: 20");
+}
+return (INT)var2;
+
+}
+
+public virtual static INT TP0method3(INT var0, INT var1, INT var2, INT var3){
+ switch((var2-(int)(30))){
+case 0:
+Console.WriteLine("TP0 - TP0method3- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP0 - TP0method3- LineInMethod: 8");
+ break;
+case 2:
+Console.WriteLine("TP0 - TP0method3- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP0 - TP0method3- LineInMethod: 20");
+}
+return (INT)var2;
+
+}
+
+public virtual static INT TP0method4(INT var0, INT var1, INT var2, INT var3){
+ switch((var2-(int)(30))){
+case 0:
+Console.WriteLine("TP0 - TP0method4- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP0 - TP0method4- LineInMethod: 8");
+ break;
+case 2:
+Console.WriteLine("TP0 - TP0method4- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP0 - TP0method4- LineInMethod: 20");
+}
+return (INT)var2;
+
+}
+
+public virtual static INT TP0method5(INT var0, INT var1, INT var2, INT var3){
+ switch((var2-(int)(30))){
+case 0:
+Console.WriteLine("TP0 - TP0method5- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP0 - TP0method5- LineInMethod: 8");
+ break;
+case 2:
+Console.WriteLine("TP0 - TP0method5- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP0 - TP0method5- LineInMethod: 20");
+}
+return (INT)var2;
+
+}
+
+public virtual static INT TP0method6(INT var0, INT var1, INT var2, INT var3){
+ switch((var2-(int)(30))){
+case 0:
+Console.WriteLine("TP0 - TP0method6- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP0 - TP0method6- LineInMethod: 8");
+ break;
+case 2:
+Console.WriteLine("TP0 - TP0method6- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP0 - TP0method6- LineInMethod: 20");
+}
+return (INT)var2;
+
+}
+
+
+public static void main(string[] args){
+TP0 obj = new TP0();
+obj.TP0method0((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method1((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method2((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method3((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method4((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method5((int)(48),(int)(48),(int)(48),(int)(48));
+TP0method6((int)(48),(int)(48),(int)(48),(int)(48));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP0 obj = new TP0();
+obj.TP0method0(i4,i1,i0,i2);
+TP0method1(i2,i4,i3,i0);
+TP0method2(i0,i4,i1,i3);
+TP0method3(i3,i2,i4,i0);
+TP0method4(i0,i1,i2,i4);
+TP0method5(i4,i3,i0,i2);
+TP0method6(i2,i1,i3,i4);
+}
+
+}
+}

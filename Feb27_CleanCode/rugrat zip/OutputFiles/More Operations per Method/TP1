@@ -1,0 +1,85 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP1 {
+
+
+public virtual static INT TP1method0(INT var0, INT var1, INT var2, INT var3){
+ if(((var0-(int)(11))==(var0-(int)(3)))){
+Console.WriteLine("TP1 - TP1method0- LineInMethod: 4");
+}
+else{
+ Console.WriteLine("TP1 - TP1method0- LineInMethod: 5");
+}
+return (INT)var0;
+
+}
+
+public virtual static INT TP1method1(INT var0, INT var1, INT var2, INT var3){
+ switch((var0*(int)(3))){
+case 0:
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 5");
+ break;
+case 2:
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 8");
+ break;
+case 3:
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 11");
+ break;
+case 4:
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP1 - TP1method1- LineInMethod: 17");
+}
+return (INT)var0;
+
+}
+
+public virtual static INT TP1method2(INT var0, INT var1, INT var2, INT var3){
+ switch((var0*(int)(3))){
+case 0:
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 5");
+ break;
+case 2:
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 8");
+ break;
+case 3:
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 11");
+ break;
+case 4:
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 14");
+ break;
+default :
+Console.WriteLine("TP1 - TP1method2- LineInMethod: 17");
+}
+return (INT)var0;
+
+}
+
+
+public static void main(string[] args){
+TP1 obj = new TP1();
+TP1method0((int)(3),(int)(3),(int)(3),(int)(3));
+TP1method1((int)(3),(int)(3),(int)(3),(int)(3));
+TP1method2((int)(3),(int)(3),(int)(3),(int)(3));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP1 obj = new TP1();
+TP1method0(i0,i2,i3,i4);
+TP1method1(i4,i0,i2,i1);
+TP1method2(i1,i3,i0,i4);
+}
+
+}
+}

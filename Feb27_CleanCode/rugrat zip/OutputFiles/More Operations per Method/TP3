@@ -1,0 +1,125 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP3 {
+
+
+public virtual static INT TP3method0(INT var0, INT var1, INT var2, INT var3){
+ switch((var3/(int)(49))){
+case 0:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 9");
+ break;
+case 2:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 16");
+ break;
+case 3:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 23");
+ break;
+case 4:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 30");
+ break;
+case 5:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 37");
+ break;
+case 6:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 44");
+ break;
+case 7:
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 51");
+ break;
+default :
+Console.WriteLine("TP3 - TP3method0- LineInMethod: 58");
+}
+return (INT)var3;
+
+}
+
+public virtual static INT TP3method1(INT var0, INT var1, INT var2, INT var3){
+ switch((var3/(int)(49))){
+case 0:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 9");
+ break;
+case 2:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 16");
+ break;
+case 3:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 23");
+ break;
+case 4:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 30");
+ break;
+case 5:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 37");
+ break;
+case 6:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 44");
+ break;
+case 7:
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 51");
+ break;
+default :
+Console.WriteLine("TP3 - TP3method1- LineInMethod: 58");
+}
+return (INT)var3;
+
+}
+
+public virtual static INT TP3method2(INT var0, INT var1, INT var2, INT var3){
+ switch((var3/(int)(49))){
+case 0:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 2");
+ break;
+case 1:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 9");
+ break;
+case 2:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 16");
+ break;
+case 3:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 23");
+ break;
+case 4:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 30");
+ break;
+case 5:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 37");
+ break;
+case 6:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 44");
+ break;
+case 7:
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 51");
+ break;
+default :
+Console.WriteLine("TP3 - TP3method2- LineInMethod: 58");
+}
+return (INT)var3;
+
+}
+
+
+public static void main(string[] args){
+TP3 obj = new TP3();
+TP3method0((int)(49),(int)(49),(int)(49),(int)(49));
+TP3method1((int)(49),(int)(49),(int)(49),(int)(49));
+TP3method2((int)(49),(int)(49),(int)(49),(int)(49));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP3 obj = new TP3();
+TP3method0(i4,i1,i3,i2);
+TP3method1(i2,i4,i3,i0);
+TP3method2(i0,i2,i1,i3);
+}
+
+}
+}

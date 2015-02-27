@@ -1,0 +1,85 @@
+using System;
+
+
+namespace com.accenture.lab.carfast.test{
+
+
+public class TP4 {
+
+
+public virtual INT TP4method0(INT var0, INT var1, INT var2, INT var3){
+ switch((var0*(int)(0))){
+case 0:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 1:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 2:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 3:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 4:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+default :
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+}
+return (INT)var0;
+
+}
+
+public virtual INT TP4method1(INT var0, INT var1, INT var2, INT var3){
+ switch((var0*(int)(0))){
+case 0:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 1:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 2:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 3:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+case 4:
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+ break;
+default :
+var0 = (edu.uta.cse.proggen.classLevelElements.Type)((var0*(int)(0))*(var0*(int)(0)));
+}
+return (INT)var0;
+
+}
+
+public virtual INT TP4method2(INT var0, INT var1, INT var2, INT var3){
+ if(((var3+(int)(42))<=(var3-var0))){
+Console.WriteLine("TP4 - TP4method2- LineInMethod: 4");
+}
+else{
+ Console.WriteLine("TP4 - TP4method2- LineInMethod: 5");
+}
+return (INT)var0;
+
+}
+
+
+public static void main(string[] args){
+TP4 obj = new TP4();
+obj.TP4method0((int)(9),(int)(9),(int)(9),(int)(9));
+obj.TP4method1((int)(9),(int)(9),(int)(9),(int)(9));
+obj.TP4method2((int)(9),(int)(9),(int)(9),(int)(9));
+}
+
+public static void singleEntry(int i0,int i1,int i2,int i3,int i4){
+TP4 obj = new TP4();
+obj.TP4method0(i0,i1,i3,i2);
+obj.TP4method1(i2,i4,i1,i0);
+obj.TP4method2(i0,i2,i1,i3);
+}
+
+}
+}
