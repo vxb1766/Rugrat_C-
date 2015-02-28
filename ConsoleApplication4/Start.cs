@@ -27,7 +27,7 @@ namespace edu.uta.cse.proggen.start.Start
 	public class Start
 	{
 
-		private static string pathToDir = "@C:\cse 6324\rugrat\";
+		private static string pathToDir = @"C:\cse 6324\rugrat\";
 
 		public static string PathToDir
 		{
@@ -286,7 +286,7 @@ namespace edu.uta.cse.proggen.start.Start
 		private static void write(string filename, string contents)
 		{
 			System.IO.FileStream fos = null;
-            String path = @"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test\" + filename;
+            String path = @"C:\cse 6324\rugrat\TestPrograms\com\accenture\lab\carfast\test\" + filename;
             
 
 			try
