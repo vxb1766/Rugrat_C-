@@ -9,7 +9,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 	/// <summary>
 	/// This class represents the signature of a generated method.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class MethodSignature

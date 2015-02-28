@@ -12,13 +12,13 @@ namespace edu.uta.cse.proggen.statements
 	using AssignmentExpression = edu.uta.cse.proggen.expressions.AssignmentExpression;
 	using VariableGenerator = edu.uta.cse.proggen.expressions.VariableGenerator;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 
 	/// <summary>
 	/// Statements: i1 = a+b;
 	/// 
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Statement

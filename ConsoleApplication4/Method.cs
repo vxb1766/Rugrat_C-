@@ -11,7 +11,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 	using Literal = edu.uta.cse.proggen.expressions.Literal;
 	using VariableGenerator = edu.uta.cse.proggen.expressions.VariableGenerator;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 	using IfElse = edu.uta.cse.proggen.statements.IfElse;
 	using IfStmtIfStmt = edu.uta.cse.proggen.statements.IfStmtIfStmt;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
@@ -20,7 +20,7 @@ namespace edu.uta.cse.proggen.classLevelElements
 	/// <summary>
 	/// This class represents a method in the generated class.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Method

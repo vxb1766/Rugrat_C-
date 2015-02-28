@@ -9,6 +9,12 @@ namespace edu.uta.cse.proggen.expressions
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
 	using BinaryOperator = edu.uta.cse.proggen.operators.BinaryOperator;
 
+    /// <summary>
+    /// 
+    /// @author Team 6 - CSE6324 - Spring 2015
+    /// 
+    /// </summary>
+
 	public class FieldBinOpField : Operand
 	{
 		private Operand leftOprnd = null;

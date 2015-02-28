@@ -4,7 +4,7 @@
 	/// <summary>
 	/// Represents an operand node in a stochastic parse tree.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Operand : Expression

@@ -8,7 +8,7 @@ namespace edu.uta.cse.proggen.statements
 	/// <summary>
 	/// Creates a print statement to be appended to the method body.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class PrintStatement

@@ -19,7 +19,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// <summary>
 	/// Represents a class in the generated application.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class ClassGenerator

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace edu.uta.cse.proggen.packageLevelElements
+namespace edu.uta.cse.proggen.namespaceLevelElements
 {
 
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
@@ -8,12 +8,12 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// <summary>
 	/// Class that generates the contents of DBUtil in the generated application.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class DBUtilGenerator
 	{
-		private string packageString = "namespace com.accenture.lab.carfast.test\n{\n\n";
+		private string namespaceString = "namespace com.accenture.lab.carfast.test\n{\n\n";
 		//private string importString = "import java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.PreparedStatement;\n" + "import java.sql.ResultSet;\nimport java.sql.SQLException;\nimport java.util.Properties;\n\n\n\n";
 
 		private string classnameString = "public class DBUtil{\n";
@@ -27,7 +27,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		public override string ToString()
 		{
 			StringBuilder builder = new StringBuilder();
-			builder.Append(packageString);
+			builder.Append(namespaceString);
 			//builder.Append(importString);
 			builder.Append(classnameString);
 			builder.Append(membersString);

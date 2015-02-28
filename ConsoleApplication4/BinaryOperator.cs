@@ -8,7 +8,7 @@ namespace edu.uta.cse.proggen.operators
 
 	/// <summary>
 	/// Binary Operator : +, -, *, /, %
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 

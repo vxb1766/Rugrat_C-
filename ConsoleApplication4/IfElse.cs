@@ -7,14 +7,14 @@ namespace edu.uta.cse.proggen.statements
 	using Method = edu.uta.cse.proggen.classLevelElements.Method;
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
 	using BooleanExpression = edu.uta.cse.proggen.expressions.BooleanExpression;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 
 	/// <summary>
 	/// It's if(e){
 	/// 		...stmt
 	/// 		}else {stmt..}
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class IfElse : Statement

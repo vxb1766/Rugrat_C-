@@ -10,7 +10,7 @@ namespace edu.uta.cse.proggen.configurationParser
 	/// This class represents a <query> element in the QueryFile fed into
 	/// RUGRAT.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Query

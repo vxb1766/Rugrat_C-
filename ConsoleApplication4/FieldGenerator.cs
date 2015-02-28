@@ -10,12 +10,12 @@ namespace edu.uta.cse.proggen.expressions
 	using Type = edu.uta.cse.proggen.classLevelElements.Type;
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 
 	/// <summary>
 	/// Class with utility methods for fetching fields from a generated class.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class FieldGenerator

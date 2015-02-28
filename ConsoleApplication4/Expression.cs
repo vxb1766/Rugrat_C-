@@ -3,7 +3,7 @@
 
 	/// <summary>
 	/// Interface of all expressions
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Expression

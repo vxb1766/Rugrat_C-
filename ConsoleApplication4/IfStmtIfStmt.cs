@@ -9,7 +9,7 @@ namespace edu.uta.cse.proggen.statements
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
 	using BooleanExpression = edu.uta.cse.proggen.expressions.BooleanExpression;
 	using Expression = edu.uta.cse.proggen.nodes.Expression;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 
 	/// <summary>
@@ -24,7 +24,7 @@ namespace edu.uta.cse.proggen.statements
 	///       ....
 	///     }
 	///  }
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class IfStmtIfStmt : Statement

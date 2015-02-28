@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace edu.uta.cse.proggen.packageLevelElements
+namespace edu.uta.cse.proggen.namespaceLevelElements
 {
 
 
@@ -20,7 +20,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// 
 	///  So, the tree depth is: Log150(X) =  Log(X) / Log(150);
 	/// 
-	/// @author Ishtiaque Hussain {ishtiaque.hussain@mavs.uta.edu}
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 
@@ -182,7 +182,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
                         output.Append("using System;\n\n\n");
                         output.Append("namespace com.accenture.lab.carfast.test{\n\n\n");
-						//output.Append("package com.accenture.lab.carfast.test;\n\n");
+						//output.Append("namespace com.accenture.lab.carfast.test;\n\n");
 	//					output.append("public class FiveMLOCStart {\n");
 						output.Append("public class " + ConfigurationXMLParser.getProperty("classNamePrefix") + "Start {\n");
 						for (int k = 0; k < ProgGenUtil.maxNoOfParameters; k++)
@@ -258,13 +258,13 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 							String file = DirPath + "TestPrograms" + Path.PathSeparator + "com" + Path.PathSeparator + "accenture" + Path.PathSeparator + "lab" + Path.PathSeparator + "carfast" + Path.PathSeparator + "test" + Path.PathSeparator + "TStart_L" + level + "_" + i + ".cs";
 
-	//						File file = new File("./TStart_L"+level+"_"+i+".cs");
+	                    //	File file = new File("./TStart_L"+level+"_"+i+".cs");
 							System.IO.StreamWriter fileWriter = new System.IO.StreamWriter(file);
 						//	System.IO.StreamWriter writer = new System.IO.StreamWriter(fileWriter);
 
 							StringBuilder output = new StringBuilder();
 
-						//	output.Append("package com.accenture.lab.carfast.test;\n\n");
+						//	output.Append("namespace com.accenture.lab.carfast.test;\n\n");
                             output.Append("using System;\n\n\n");
                             output.Append("namespace com.accenture.lab.carfast.test{\n\n\n");
 							output.Append("public class TStart_L" + level + "_" + i + "{\n");

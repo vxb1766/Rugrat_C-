@@ -8,6 +8,12 @@ namespace edu.uta.cse.proggen.expressions
 	using Expression = edu.uta.cse.proggen.nodes.Expression;
 	using BinaryOperator = edu.uta.cse.proggen.operators.BinaryOperator;
 
+    /// <summary>
+    /// 
+    /// @author Team 6 - CSE6324 - Spring 2015
+    /// 
+    /// </summary>
+
 	public class VariableBinOpField : Expression
 	{
 		private Expression leftOprnd = null;

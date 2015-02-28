@@ -14,7 +14,7 @@ namespace edu.uta.cse.proggen.expressions
 	/// 
 	/// <summary>
 	/// boolExpr := expr boolOp expr | boolExpr conjOp boolExpr
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 

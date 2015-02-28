@@ -18,7 +18,7 @@ namespace edu.uta.cse.proggen.configurationParser
 	/// <summary>
 	/// Parser class for the query file XML.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class QueryFileParser

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace edu.uta.cse.proggen.packageLevelElements
+namespace edu.uta.cse.proggen.namespaceLevelElements
 {
 
 
@@ -17,7 +17,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// 
 	/// Note: No inheritance among interfaces.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class InterfaceGenerator
@@ -80,17 +80,17 @@ namespace edu.uta.cse.proggen.packageLevelElements
 			}
 		}
 
-		public virtual string PackageName
+		public virtual string NamespaceName
 		{
 			get
 			{
-				return "package com.accenture.lab.carfast.test;\n\n\n";
+				return "namespace com.accenture.lab.carfast.test;\n\n\n";
 			}
 		}
 
 		public override string ToString()
 		{
-			StringBuilder builder = new StringBuilder(PackageName);
+			StringBuilder builder = new StringBuilder(NamespaceName);
 			builder.Append("public interface");
 			builder.Append(" ");
 			builder.Append(name);

@@ -17,7 +17,7 @@ namespace edu.uta.cse.proggen.expressions
 	/// Class with utility methods to fetch a variable from a generated class
 	/// based on various criteria.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class VariableGenerator

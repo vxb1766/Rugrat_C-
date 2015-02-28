@@ -4,12 +4,12 @@ namespace edu.uta.cse.proggen.classLevelElements
 {
 
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 
 	/// <summary>
 	/// Represents a variable in the generated class.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Variable : Field

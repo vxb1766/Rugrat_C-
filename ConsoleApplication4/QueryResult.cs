@@ -6,7 +6,7 @@
 	/// <summary>
 	/// Represents the <Result> sub-element of <Query> in the query xml.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class QueryResult

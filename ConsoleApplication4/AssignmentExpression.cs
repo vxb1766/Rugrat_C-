@@ -20,7 +20,7 @@ namespace edu.uta.cse.proggen.expressions
 
 	/// <summary>
 	/// var = NormanExpr BinOp NormalExpr
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class AssignmentExpression : Expression

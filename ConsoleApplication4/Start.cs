@@ -11,17 +11,17 @@ namespace edu.uta.cse.proggen.start.Start
 {
     using Method = edu.uta.cse.proggen.classLevelElements.Method;
     using ConfigurationXMLParser = edu.uta.cse.proggen.configurationParser.ConfigurationXMLParser;
-    using SingleEntryGenerator = edu.uta.cse.proggen.packageLevelElements.SingleEntryGenerator;
+    using SingleEntryGenerator = edu.uta.cse.proggen.namespaceLevelElements.SingleEntryGenerator;
     using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
-    using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
-    using TreeOfSingleEntryGenerator = edu.uta.cse.proggen.packageLevelElements.TreeOfSingleEntryGenerator;
-    using InterfaceGenerator = edu.uta.cse.proggen.packageLevelElements.InterfaceGenerator;
-    using DBUtilGenerator = edu.uta.cse.proggen.packageLevelElements.DBUtilGenerator;
+    using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
+    using TreeOfSingleEntryGenerator = edu.uta.cse.proggen.namespaceLevelElements.TreeOfSingleEntryGenerator;
+    using InterfaceGenerator = edu.uta.cse.proggen.namespaceLevelElements.InterfaceGenerator;
+    using DBUtilGenerator = edu.uta.cse.proggen.namespaceLevelElements.DBUtilGenerator;
 
 	/// <summary>
 	/// Starting point of the ProgGen tool.
 	/// 
-	/// @author Ishtiaque_Hussain
+	/// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Start
@@ -101,7 +101,7 @@ namespace edu.uta.cse.proggen.start.Start
                     list.Add(test);
 
                 }
-                string path = @"C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test";
+                string path = @"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test";
                 //Directory directory = Directory.CreateDirectory(path);
                 DirectoryInfo directory = Directory.CreateDirectory(path);
                 //System.IO.FileStream fs = System.IO.File.Create(pathString);
@@ -224,7 +224,7 @@ namespace edu.uta.cse.proggen.start.Start
 
 			try
 			{
-				System.IO.File.WriteAllText(@"C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test\ReachabilityMatrix.csv", matrix);
+                System.IO.File.WriteAllText(@"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test\ReachabilityMatrix.csv", matrix);
 				Console.WriteLine("Writing reachability matrix...");
                	outstream.WriteLine(matrix.GetBytes());
 			}
@@ -286,7 +286,7 @@ namespace edu.uta.cse.proggen.start.Start
 		private static void write(string filename, string contents)
 		{
 			System.IO.FileStream fos = null;
-            String path = @"C:\Users\VeenaBalasubramanya\Desktop\Adv_Se\rugrat\TestPrograms\com\accenture\lab\carfast\test\"+filename;
+            String path = @"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test\" + filename;
             
 
 			try
@@ -307,14 +307,14 @@ namespace edu.uta.cse.proggen.start.Start
 			}
 			catch (FileNotFoundException e)
 			{
-				Console.WriteLine("Error writing out class to .java file : " + filename);
+				Console.WriteLine("Error writing out class to .cs file : " + filename);
 				Console.WriteLine(e.ToString());
 				Console.Write(e.StackTrace);
 				Environment.Exit(1);
 			}
 			catch (IOException e)
 			{
-				Console.WriteLine("Error writing out class to .java file : " + filename);
+				Console.WriteLine("Error writing out class to .cs file : " + filename);
 				Console.WriteLine(e.ToString());
 				Console.Write(e.StackTrace);
 				Environment.Exit(1);

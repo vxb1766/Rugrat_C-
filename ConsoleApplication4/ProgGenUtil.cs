@@ -20,13 +20,13 @@ namespace edu.uta.cse.proggen.util
     using Literal = edu.uta.cse.proggen.expressions.Literal;
     using VariableGenerator = edu.uta.cse.proggen.expressions.VariableGenerator;
     using Operand = edu.uta.cse.proggen.nodes.Operand;
-    using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+    using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
     using PrintStatement = edu.uta.cse.proggen.statements.PrintStatement;
 
     /// <summary>
     /// Class containing utility APIs.
     /// 
-    /// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
     /// 
     /// </summary>
     public class ProgGenUtil
@@ -607,7 +607,7 @@ namespace edu.uta.cse.proggen.util
         }
 
         //JAVA TO C# CONVERTER TODO TASK: Most Java annotations will not have direct .NET equivalent attributes:
-        //ORIGINAL LINE: @SuppressWarnings("unchecked") private static java.util.ArrayList getClassByMethodReturnType(java.util.ArrayList<edu.uta.cse.proggen.classLevelElements.Field> objList, edu.uta.cse.proggen.classLevelElements.Type.Primitives returnType, java.util.ArrayList<edu.uta.cse.proggen.packageLevelElements.ClassGenerator> classList)
+        //ORIGINAL LINE: @SuppressWarnings("unchecked") private static java.util.ArrayList getClassByMethodReturnType(java.util.ArrayList<edu.uta.cse.proggen.classLevelElements.Field> objList, edu.uta.cse.proggen.classLevelElements.Type.Primitives returnType, java.util.ArrayList<edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator> classList)
         private static ArrayList getClassByMethodReturnType(List<Field> objList, Type.Primitives returnType, List<ClassGenerator> classList)
         {
             Field field;

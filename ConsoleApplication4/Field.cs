@@ -7,13 +7,13 @@ namespace edu.uta.cse.proggen.classLevelElements
 
 	using Primitives = edu.uta.cse.proggen.classLevelElements.Type.Primitives;
 	using Operand = edu.uta.cse.proggen.nodes.Operand;
-	using ClassGenerator = edu.uta.cse.proggen.packageLevelElements.ClassGenerator;
+	using ClassGenerator = edu.uta.cse.proggen.namespaceLevelElements.ClassGenerator;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
 
 	/// <summary>
 	/// This class represents a class variable in the generated class
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class Field : Operand

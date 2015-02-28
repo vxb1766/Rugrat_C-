@@ -7,7 +7,7 @@ namespace edu.uta.cse.proggen.operators
 
 	/// <summary>
 	/// Conjunct operators: &&, ||, &, |
-	/// @author Ishtiaque_Hussain
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class ConjunctOperator : Operator

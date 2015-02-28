@@ -7,7 +7,7 @@ namespace edu.uta.cse.proggen.operators
 	using Operator = edu.uta.cse.proggen.nodes.Operator;
 	/// <summary>
 	/// Boolean Operators : ==, !=, >, >=, <, <=
-	/// @author Ishtiaque_Hussain
+    /// Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 

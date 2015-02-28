@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace edu.uta.cse.proggen.packageLevelElements
+namespace edu.uta.cse.proggen.namespaceLevelElements
 {
 
 	using ConfigurationXMLParser = edu.uta.cse.proggen.configurationParser.ConfigurationXMLParser;
 	using ProgGenUtil = edu.uta.cse.proggen.util.ProgGenUtil;
+
+    /// <summary>
+    /// Program to generate Single Entry.
+    /// 
+    /// @author Team 6 - CSE6324 - Spring 2015
+    /// 
+    /// </summary>
 
 	public class SingleEntryGenerator
 	{
@@ -27,9 +34,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 		}
 
 
-		private void appendPackageName()
+		private void appendNamespaceName()
 		{
-			//program += "package com.accenture.lab.carfast.test;\n\n\n";
+			//program += "namespace com.accenture.lab.carfast.test;\n\n\n";
             //Srujana: using System import necessary for all C# programs
             program += "using System;\n\n\n";
             //Srujana: C# packages are called namespaces
@@ -140,7 +147,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 		public virtual void generateSingleEntryClass()
 		{
-			appendPackageName();
+			appendNamespaceName();
 			appendClassName();
 			appendFieldNames();
 			appendSubMethod();

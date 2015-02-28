@@ -18,7 +18,7 @@ namespace edu.uta.cse.proggen.configurationParser
 	/// <summary>
 	/// Parser class to get information from config.xml.
 	///  * 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 
@@ -41,7 +41,7 @@ namespace edu.uta.cse.proggen.configurationParser
 			try
 			{
 				//DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-                string filename = (Start.Start.PathToDir + "config.xml");
+                string filename = "C:\\Users\\Samuel\\Desktop\\Rugrat_Run\\config.xml";
                 document = new XmlDocument();
 				document.Load(filename);
 				try

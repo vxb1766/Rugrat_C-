@@ -8,7 +8,7 @@ namespace edu.uta.cse.proggen.classLevelElements
     /// This class represents the type for every entity(class variables, local variables,
     /// parameters, return values) in the generated class.
     /// 
-    /// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
     /// 
     /// </summary>
     public class Type : System.Object
