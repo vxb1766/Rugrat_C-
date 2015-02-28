@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace edu.uta.cse.proggen.packageLevelElements
+namespace edu.uta.cse.proggen.namespaceLevelElements
 {
 
 
@@ -19,7 +19,7 @@ namespace edu.uta.cse.proggen.packageLevelElements
 	/// <summary>
 	/// Represents a class in the generated application.
 	/// 
-	/// @author balamurugan
+    /// @author Team 6 - CSE6324 - Spring 2015
 	/// 
 	/// </summary>
 	public class ClassGenerator
@@ -164,8 +164,8 @@ namespace edu.uta.cse.proggen.packageLevelElements
             //    appendImportStatements();
             //}
 
-			// append package name
-			appendPackageName();
+			// append namespace name
+			appendNamespaceName();
 
 			
 
@@ -198,6 +198,12 @@ namespace edu.uta.cse.proggen.packageLevelElements
 
 			generatedClasses.Add(this.FileName);
 		}
+
+        // Sam: Method name already exists in the same file. Is it valid code?
+        //private void appendNamespaceName()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
 		private void appendImportStatements()
 		{   //not needed for C#
@@ -666,9 +672,9 @@ namespace edu.uta.cse.proggen.packageLevelElements
 			this.subClasses.Add(classGenerator);
 		}
 
-		private void appendPackageName()
+		private void appendNamespaceName()
 		{
-			//program += "package com.accenture.lab.carfast.test;\n\n\n";
+			//program += "namespace com.accenture.lab.carfast.test;\n\n\n";
             //Srujana: using System import necessary for all C# programs
             program += "using System;\n\n\n";
             //Srujana: C# packages are called namespaces
