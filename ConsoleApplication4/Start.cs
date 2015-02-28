@@ -27,7 +27,7 @@ namespace edu.uta.cse.proggen.start.Start
 	public class Start
 	{
 
-		private static string pathToDir = "";
+		private static string pathToDir = "@C:\cse 6324\rugrat\";
 
 		public static string PathToDir
 		{
@@ -101,7 +101,7 @@ namespace edu.uta.cse.proggen.start.Start
                     list.Add(test);
 
                 }
-                string path = @"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test";
+                string path = @"C:\cse 6324\rugrat\TestPrograms\com\accenture\lab\carfast\test";
                 //Directory directory = Directory.CreateDirectory(path);
                 DirectoryInfo directory = Directory.CreateDirectory(path);
                 //System.IO.FileStream fs = System.IO.File.Create(pathString);
@@ -224,7 +224,7 @@ namespace edu.uta.cse.proggen.start.Start
 
 			try
 			{
-                System.IO.File.WriteAllText(@"C:\Users\Samuel\Desktop\Rugrat_Run\TestPrograms\com\accenture\lab\carfast\test\ReachabilityMatrix.csv", matrix);
+                System.IO.File.WriteAllText(@"C:\cse 6324\rugrat\TestPrograms\com\accenture\lab\carfast\test\ReachabilityMatrix.csv", matrix);
 				Console.WriteLine("Writing reachability matrix...");
                	outstream.WriteLine(matrix.GetBytes());
 			}
